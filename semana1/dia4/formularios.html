@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="inputNombre">Nombre Completo:</label>
+                </td>
+                <td>
+                    <input type="text" id="inputNombre" placeholder="Ingrese nombre completo" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputEdad">Edad:</label>
+                </td>
+                <td>
+                    <input type="number" id="inputEdad" placeholder="Ingrese su edad">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputFechaNacimiento">Fecha de Nacimiento:</label>
+                </td>
+                <td>
+                    <input type="date" id="inputFechaNacimiento" value="2020-09-12">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputColor">Color:</label>
+                </td>
+                <td>
+                    <input type="color" id="inputColor">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Sexo:</label>
+                </td>
+                <td>
+                    <label for="inputRadioM">Masculino</label>
+                    <input type="radio" id="inputRadioM" name="genero" checked/>
+
+                    <label for="inputRadiof">Femenino</label>
+                    <input type="radio" id="inputRadioF" name="genero" />
+
+                    <label for="inputOtro">Otro</label>
+                    <input type="radio" id="inputOtro" name="genero" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Idioma:</label>
+                </td>
+                <td>
+                    <label for="checkIngles">Ingles</label>
+                    <input type="checkbox" id="checkIngles" name="idioma" checked/>
+
+                    <label for="checkEspañol">Español</label>
+                    <input type="checkbox" id="checkEspañol" name="idioma" />
+
+                    <label for="inputPortugues">Portugues</label>
+                    <input type="checkbox" id="inputPortugues" name="idioma" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputEmail">Email:</label>
+                </td>
+                <td>
+                    <input type="email" id="inputEmail" placeholder="Ingrese su email" value="@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputPassword">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="inputPassword" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtAreaComentarios">Comentarios:</label>
+                </td>
+                <td>
+                    <textarea id="txtAreaComentarios" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Acciones:</label>
+                </td>
+                <td>
+                    <input type="submit" value="Registrarme" />
+                    <input type="reset" value="Limpiar Formulario" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

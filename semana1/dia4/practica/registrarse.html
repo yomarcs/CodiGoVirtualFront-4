@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registrarse</h1>
+    </header>
+    <p>
+        <a href="./iniciarsesion.html">Iniciar sesión</a>
+        <a href="./registrarse.html">Registrarse</a>
+    </p>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="inputNombres">Nombres completos:</label>
+                </td>
+                <td>
+                    <input type="text" id="inputNombres" pattern="[a-z]{1,15}" placeholder="Ingrese tus nombres" minlength="4" maxlength="7" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputApellidos">Apellidos:</label>
+                </td>
+                <td>
+                    <input type="text" id="inputApellidos" placeholder="Ingrese tus apellidos" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputEdad">Edad:</label>
+                </td>
+                <td>
+                    <input type="number" id="inputEdad" placeholder="Ingrese tu edad" min="0" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputFechaNacimiento">Fecha de nacimiento:</label>
+                </td>
+                <td>
+                    <input type="date" id="inputFechaNacimiento" value="1984-09-12">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputCorreo">Correo:</label>
+                </td>
+                <td>
+                    <input type="email" id="inputCorreo" placeholder="Ingrese su Email" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputContraseña">Contraseña:</label>
+                </td>
+                <td>
+                    <input type="password" id="inputContraseña" placeholder="Ingrese su contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Necesitas una mayúscula , una minúscula , un número y tu contraseña no debe ser menor a 8 digitos" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Sexo:</label>
+                </td>
+                <td>
+                    <label for="inputRadioM">M</label>
+                    <input type="radio" id="inputRadioM" name="genero" checked/>
+
+                    <label for="inputRadioF">F</label>
+                    <input type="radio" id="inputRadioF" name="genero" />
+
+                    <label for="inputOtro">Otro</label>
+                    <input type="radio" id="inputOtro" name="genero" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Idioma:</label>
+                </td>
+                <td>
+                    <label for="checkIngles">Ingles</label>
+                    <input type="checkbox" id="checkIngles" name="idioma" checked />
+
+                    <label for="checkEspañol">Español</label>
+                    <input type="checkbox" id="checkEspañol" name="idioma" />
+
+                    <label for="inputPortugues">Portugues</label>
+                    <input type="checkbox" id="inputPortugues" name="idioma" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputIdioma">Idioma:</label>
+                </td>
+                <td>
+                    <select id="inputIdioma" required>
+                    <option value="">Nivel de estudios</option>
+                    <option>Básico</option>
+                    <option>Intermedio</option>
+                    <option>Avanzado</option>
+                </Select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtAreaDescripcion">Descripción:</label>
+                </td>
+                <td>
+                    <textarea id="txtAreaDescripcion" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputCv">Ingresa tu Cv:</label>
+                </td>
+                <td>
+                    <input type="file" id="inputCv" value="Ingresa tu CV" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputColor">Color base:</label>
+                </td>
+                <td>
+                    <input type="color" id="inputColor">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label></label>
+                </td>
+                <td>
+                    <input type="submit" value="Registrarme" />
+                    <input type="reset" value="Limpiar Formulario" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
