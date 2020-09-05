@@ -1,0 +1,30 @@
+header {
+    background: gray;
+}
+
+section {
+    background: yellow;
+}
+
+h1,
+h2,
+h3 {
+    color: red;
+}
+
+.anuncios .textoAnuncio {
+    background: chocolate;
+    color: white;
+}
+
+.tarjeta {
+    background: royalblue;
+}
+
+.tarjeta .cuerpo-tarjeta {
+    background: salmon;
+}
+
+.tarjeta .pie-pagina-tarjeta {
+    background: green;
+}
