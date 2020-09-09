@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,400&display=swap');
+
+/* Selecciona todos los elementos del DOM */
+
+
+/* Regla para el padding y el borde e un elemento */
+
+
+/*  */
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #444;
@@ -21,8 +30,32 @@ body {
 main {
     background-color: #aaa;
     width: 1000px;
+    padding-bottom: 20px;
 }
 
 footer p {
     text-align: center;
+}
+
+.main__imagenes {
+    height: 100px;
+    /* Controla el desborde de los hijos de un elemento */
+    /* overflow: hidden; */
+    /* Siel contenido es muy grane en el eje Y se va a dibujar un scroll */
+    overflow-y: scroll;
+}
+
+.main__descripcion {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 5px solid white;
+    margin-bottom: 21px;
+}
+
+.main__articulos {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: plum;
 }

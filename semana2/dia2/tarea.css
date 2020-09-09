@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 50px;
+}
+
+.formulario {
+    width: 350px;
+    height: 500px;
+    margin: 10px auto;
+    padding: 70px;
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+
+.formulario__titulo {
+    color: rgb(224, 75, 224);
+}
+
+p {
+    color: slategray;
+}
+
+.formulario__email__label,
+.formulario__password__label {
+    color: rgb(224, 75, 224);
+}
+
+.formulario__email {
+    width: 100%;
+    color: rebeccapurple;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    border-left: 4px solid violet;
+    background-color: #fce3f7;
+}
+
+.formulario__password {
+    width: 100%;
+    color: rebeccapurple;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    border-left: 4px solid violet;
+    background-color: #fce3f7;
+}
+
+.formulario__checkbox__label {
+    font-size: 10px;
+    color: rgb(224, 75, 224);
+    text-indent: -15px;
+}
+
+.formulario__link {
+    font-size: 10px;
+    color: rgb(224, 75, 224);
+    text-decoration: none;
+    margin-left: 69px;
+}
+
+.formulario__submit__registrarse {
+    background-color: rgb(224, 75, 224);
+    color: white;
+    font-size: 11px;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    border: 1px solid rgb(224, 75, 224);
+}
+
+.formulario__submit__registrate {
+    background-color: white;
+    float: right;
+    color: rgb(224, 75, 224);
+    font-size: 11px;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    border: 1px solid rgb(224, 75, 224);
+}
+
+.formulario__checkbox {
+    width: 13px;
+    height: 13px;
+    vertical-align: bottom;
+    position: relative;
+    top: -2px;
+}

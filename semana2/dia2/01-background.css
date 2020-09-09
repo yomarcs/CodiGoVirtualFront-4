@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion1 {
+    height: 100px;
+    /* Color de fondo */
+    background-color: #444;
+}
+
+.seccion2 {
+    height: 200px;
+    background-image: url(https://www.publicdomainpictures.net/pictures/250000/nahled/clouds-background-005.jpg);
+    /* Controla la repeticion de la imagen */
+    background-repeat: no-repeat;
+    /* Controla la oscion de la imagen -> left - right - center */
+    background-position: center;
+    /* La imagen ocupa el 100% de la pantalla */
+    background-size: cover;
+}
+
+.seccion2__titulo {
+    height: 200px;
+    background-color: rgba(40, 40, 40, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.seccion3 {
+    height: 500px;
+    width: 500px;
+    /* Colocando una gradiente */
+    /* Gradientes linelaes */
+    /* top: top a bottom */
+    /* rigth: rigth a left */
+    /* https://uigradients.com/#UltraVoilet */
+    background: #654ea3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #654ea3, #eaafc8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #654ea3, #eaafc8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    )
+}
