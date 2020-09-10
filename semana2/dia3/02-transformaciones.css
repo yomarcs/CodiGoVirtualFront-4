@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.card,
+.card2,
+.card3,
+.card4 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: #888 0px 0px 10px;
+}
+
+.card:hover {
+    /* la escala puede crecer y decrecer */
+    /* donde 1 es normal y 0.9 decrecimiento */
+    transform: scale(1.05, 1.05);
+    box-shadow: #888 0px 0px 5px;
+}
+
+.card2:hover {
+    transform: rotate(10deg);
+}
+
+.card3:hover {
+    transform: translate(100%, 100%);
+}

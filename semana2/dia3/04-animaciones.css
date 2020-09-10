@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    box-shadow: #888 0px 0px 10px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: mover 1s ease-in-out 1s infinite normal none; */
+}
+
+.card:hover {
+    animation: mover 1s ease-in-out 0s infinite normal none;
+}
+
+@keyframes mover {
+    /* es recomendable que el punto inicial o 0% sea igual al elemento sin animaciones  */
+    0% {
+        background-color: #fff;
+    }
+    /* 25% { 
+        transform: rotate(45deg);
+    }*/
+    50% {
+        background-color: indianred;
+        transform: scale(1.05, 1.05);
+    }
+    100% {
+        background-color: #fff;
+    }
+}
+
+.boton {
+    padding: 5px 10px;
+    border: none;
+    background-color: violet;
+    color: white;
+    margin: 20px;
+    border-radius: 3px;
+    width: 100px;
+    transition: box-shadow 2s ease;
+}
+
+.boton:hover {
+    /* border-left: 20px solid rgb(139, 39, 139); */
+    box-shadow: rgb(139, 39, 139) 100px 0px inset;
+}
+
+.contenedor {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: none;
+    background-color: violet;
+    color: white;
+    margin-left: 20px;
+    border-radius: 3px;
+    width: 100px;
+    transition: box-shadow 2s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.contenedor:hover .contenedor__frame {
+    left: 0;
+}
+
+.contenedor__frame {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100px;
+    left: -100px;
+    background-color: rgb(139, 39, 139);
+    transition: left 1s ease-in-out;
+}
