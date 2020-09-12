@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre {
+    border: 1px solid tomato;
+    display: flex;
+    /* flex-direction: row; -> se asume automaticamente cuando ponemos flex */
+    /* flex-direction: column; */
+    /*->se colocan en columnas -uno denjo de otro*/
+    flex-wrap: wrap;
+    /*respeta anchos y si no hay espacio disponible colapsa y se ponen uno debajo de otro*/
+}
+
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4 {
+    border: 1px solid black;
+    width: 25%;
+}
+
+.caja-1 {
+    width: 200px;
+    background-color: teal;
+}
+
+.seccion2 {
+    display: flex;
+}
+
+.seccion2__1 {
+    /* flex: 2; */
+    width: 230px;
+    background-color: teal;
+    border: 1px solid red;
+}
+
+.seccion2__2 {
+    flex: 1;
+    border: 1px solid red;
+}
+
+.seccion2__3 {
+    flex: 1;
+    border: 1px solid red;
+}
+
+.seccion2__4 {
+    flex: 1;
+    border: 1px solid red;
+}
+
+.header {
+    height: 60px;
+    background-color: tomato;
+}
+
+.header__lista {
+    height: 100%;
+    background-color: teal;
+    display: flex;
+    list-style: none;
+}
+
+.header__item {
+    flex: 1;
+    border: 1px solid yellow;
+}

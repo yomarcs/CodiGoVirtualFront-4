@@ -1,14 +1,16 @@
 :root {
+    /*creando variables para usarlas
+    en tooooodo el documento*/
     --primary: #e94a3e;
     --light: #eee;
     --gray: #666;
-    --gray-light: #b6aeae;
+    --gray-light: #999;
 }
 
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 body {
@@ -17,9 +19,24 @@ body {
 }
 
 .card {
-    width: 350px;
+    width: 300px;
     background-color: white;
     cursor: pointer;
+    display: inline-block;
+    margin: 20px;
+}
+
+.card:hover .card__description {
+    height: 90px;
+}
+
+.card:hover .card__header {
+    height: 200px;
+}
+
+.card:hover .card__img {
+    filter: brightness(0.7);
+    transform: scale(1.1, 1.1);
 }
 
 .card__header {
@@ -31,12 +48,11 @@ body {
 
 .card__img {
     width: 100%;
-    /* height: 250px; */
     transition: all 0.5s ease;
 }
 
 .card__photos {
-    padding: 4px 8px;
+    padding: 6px 10px;
     background-color: var(--primary);
     color: var(--light);
     position: absolute;
@@ -76,7 +92,6 @@ body {
     font-size: 13px;
     line-height: 22px;
     color: var(--gray);
-    /* display: none; */
     height: 0px;
     overflow: hidden;
     transition: all 0.5s ease;
@@ -97,17 +112,25 @@ body {
     margin-right: 15px;
 }
 
-.card:hover .card__description {
-    display: block;
-    height: 100px;
-    /* opacity: 1;
-    visibility: visible; */
+
+/* HEADER */
+
+.header {
+    height: 60px;
+    background: -webkit-linear-gradient(left, var(--primary), #e47f78, var(--primary));
 }
 
-.card:hover .card__header {
-    height: 250px;
+.main__menu,
+.main__container {
+    display: inline-block;
+    height: calc(100vh - 60px);
 }
 
-.card:hover .card__img {
-    filter: brightness(0.7);
+.main__menu {
+    width: 220px;
+    background-color: #e47f78;
+}
+
+.main__container {
+    width: calc(100vw - 300px);
 }
