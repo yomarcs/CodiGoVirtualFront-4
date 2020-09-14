@@ -1,0 +1,28 @@
+>> Semana2
+
+<-- Metodología BEM -->
+https://seesparkbox.com/foundry/bem_by_example
+
+<-- Neumorfismo -->
+https://neumorphism.io/#55b9f3
+
+<-- FlatIcon - Iconos -->
+https://www.flaticon.com/
+
+<-- Gradientes - Colores -->
+https://uigradients.com/#PlayingwithReds
+
+<-- Diseños Creativos -->
+https://dribbble.com/
+
+<-- Fuentes  e Iconos -->
+https://fontawesome.com/
+
+<-- Repositorio de Librerias -->
+https://cdnjs.com/
+
+<-- Colores -->
+https://color.adobe.com/es/create/color-wheel
+
+<-- Desarrolladores expertos de Google -->
+https://developers.google.com/community/experts/directory

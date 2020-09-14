@@ -1,0 +1,22 @@
+>> Semana1
+
+<-- Developer-Roadmap ->>
+https://github.com/kamranahmedse/developer-roadmap
+
+<-- Comando Git -->
+https://docs.google.com/document/d/1f8fxOhs4vnNRe6RYOQwyKT1HKLFaKU2CEotyQkL_cL4/edit?usp=sharing
+
+<-- Poyecto Odin -->
+https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-the-front-end
+
+<<-- El gran libro de HTML5, CSS3 y Javascript -->>
+http://www.haurreskolak.eus/adj_documentos_informacion/666.pdf
+
+<-- Documentacion ARIA -->
+https://developer.mozilla.org/es/docs/Web/Accessibility/ARIA
+
+<-- Diseño tabla -->
+https://disenowebakus.net/imagenes/articulos/thead-tbody-tfoot-tabla-html.jpg
+
+<-- Developer  en Youtube -->
+https://docs.google.com/document/d/1lwAOLRfH50A-AupKbiFcF6JZugOZbbPCpHb_O6aB2s8/edit
