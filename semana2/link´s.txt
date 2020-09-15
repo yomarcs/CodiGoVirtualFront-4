@@ -26,3 +26,7 @@ https://color.adobe.com/es/create/color-wheel
 
 <-- Desarrolladores expertos de Google -->
 https://developers.google.com/community/experts/directory
+
+<-- FontEnd Mentor -->
+https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/
+https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT
