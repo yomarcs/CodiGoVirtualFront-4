@@ -36,7 +36,7 @@
     /* top: top a bottom */
     /* rigth: rigth a left */
     /* https://uigradients.com/#UltraVoilet */
-    background: #654ea3;
+    background-color: #654ea3;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #654ea3, #eaafc8);
     /* Chrome 10-25, Safari 5.1-6 */

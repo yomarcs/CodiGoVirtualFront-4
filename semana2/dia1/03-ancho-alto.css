@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
-/* Selecciona todos los elementos del DOM */
+/*selecciona a todos los elementos del dom*/
 
-
-/* Regla para el padding y el borde e un elemento */
-
-
-/*  */
+* {
+    /*Regla para que el padding y el borde de un elemento*/
+    /*no afecten en su tamaño establecido*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -16,20 +18,20 @@ body {
 
 .header {
     background-color: #666;
-    /*Altura de un elemento */
+    /*altura de un elemento*/
     height: 60px;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
 }
 
 .header span {
-    background-color: white;
+    background-color: #fff;
     color: #444;
 }
 
-main {
+.main {
     background-color: #aaa;
-    width: 1000px;
+    width: 1200px;
+    /* height: 100px; */
     padding-bottom: 20px;
 }
 
@@ -39,10 +41,13 @@ footer p {
 
 .main__imagenes {
     height: 100px;
-    /* Controla el desborde de los hijos de un elemento */
+    /*controla el desborde de los hijos de un 
+  elemento*/
     /* overflow: hidden; */
-    /* Siel contenido es muy grane en el eje Y se va a dibujar un scroll */
+    /*si el contenido es muy grande en el eje
+  y, se va a dibujar un scroll*/
     overflow-y: scroll;
+    /* overflow-x: scroll; */
 }
 
 .main__descripcion {
@@ -51,6 +56,7 @@ footer p {
     background-color: orange;
     border: 5px solid white;
     margin-bottom: 21px;
+    padding: 5px;
 }
 
 .main__articulos {

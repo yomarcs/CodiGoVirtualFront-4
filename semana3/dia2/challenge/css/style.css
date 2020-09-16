@@ -1,0 +1,21 @@
+/* Importando otro archivo css para fusionar sus propiedades con las propiedades de este archivo */
+
+@import url(./variable.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./features.css);
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    color: var(--white);
+    background-color: var(--dark-blue-2);
+    font-family: var(--open-sans);
+}
