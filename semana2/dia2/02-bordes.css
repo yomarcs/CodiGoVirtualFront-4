@@ -5,7 +5,7 @@
 }
 
 .formulario {
-    border: 2px solid rgb(128, 0, 122);
+    border: 2px ridge rgb(128, 0, 122);
     width: 500px;
     height: 600px;
     /* Distribuye para ambos lados */
@@ -23,7 +23,7 @@
     border-radius: 2px;
     margin-top: 10px;
     /* Colocando borde solo aabajo */
-    border-bottom: 4px solid #25023a;
+    border-bottom: 10px solid #25023a;
 }
 
 .formulario__input {

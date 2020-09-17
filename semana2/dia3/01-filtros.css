@@ -18,7 +18,7 @@ body {
 
 .seccion1:hover {
     /* grayscale es un filtro para colocar un contenido en escala de grises valores de 0-1 */
-    /* filter: grayscale(1); */
+    /* filter: grayscale(90%); */
     /* brightness aplica brillo a un elemento y acepta valores entre 0 y 1.0 - ejen: 0.8 */
     /* filter: brightness(7); */
     /* opacity define la transparencia de un elemento */

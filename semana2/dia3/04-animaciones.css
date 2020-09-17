@@ -75,8 +75,8 @@
     position: absolute;
     top: 0;
     height: 100%;
-    width: 100px;
+    width: 100%;
     left: -100px;
-    background-color: rgb(139, 39, 139);
+    background-color: rgb(139, 77, 177, 0.3);
     transition: left 1s ease-in-out;
 }

@@ -1,0 +1,9 @@
+.btn {
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 1rem 5rem;
+    color: white;
+    border-radius: 1.5rem;
+    background: -webkit-linear-gradient(left, var(--cyan), var(--blue));
+}

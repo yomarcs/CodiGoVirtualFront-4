@@ -24,7 +24,7 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    margin: 0 auto 0 auto;
+    margin: 0px auto 0px auto;
     position: relative;
 }
 
@@ -65,4 +65,5 @@ body {
     position: fixed;
     right: 20px;
     bottom: 20px;
+    cursor: pointer;
 }
