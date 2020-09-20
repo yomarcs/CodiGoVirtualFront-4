@@ -9,7 +9,7 @@
 }
 
 .comment {
-    height: 220px;
+    /* height: 220px; */
     flex: 1;
     margin: 1.5rem;
     background-color: var(--dark-blue-4);
@@ -17,7 +17,8 @@
     padding: 2.5rem 2rem 1.5rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 1rem;
 }
 
 .comment_text {

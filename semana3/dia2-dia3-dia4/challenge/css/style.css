@@ -1,0 +1,127 @@
+/* Importando otro archivo css para fusionar sus propiedades con las propiedades de este archivo */
+
+@import url(./variable.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./features.css);
+@import url(./button.css);
+@import url(./tutorial.css);
+@import url(./comments.css);
+@import url(./suscribe.css);
+@import url(./footer.css);
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    color: var(--white);
+    background-color: var(--dark-blue-1);
+    font-family: var(--open-sans);
+    background-image: url(./../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    background-position: center 600px;
+}
+
+.container {
+    background-color: var(--dark-blue-2);
+}
+
+@media (max-width: 1011px) {
+    body {
+        background-size: 100% 1100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .tutorial {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tutorial__figure {
+        text-align: center;
+        width: 100%;
+    }
+    .tutorial__figure img {
+        width: 90%;
+    }
+    .tutorial__info {
+        width: 100%;
+        gap: 2rem;
+    }
+    .tutorial__title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    body {
+        /* padding: 2rem; */
+        background-image: url(./../images/bg-curvy-mobile.svg);
+        background-size: 100% 300px;
+    }
+    .hero__img {
+        width: 80%;
+    }
+    .features {
+        background-color: var(--dark-blue-2);
+    }
+    .features__card {
+        width: 100%;
+    }
+    .comments {
+        flex-direction: column;
+    }
+    .sucribe {
+        width: 80%;
+    }
+    .suscribe__form {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .suscribe__input {
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+    .footer__info {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer_sitemap ul {
+        columns: 1;
+    }
+    .footer__social {
+        text-align: center;
+    }
+    .footer__container {
+        padding: 13rem 3rem 3rem 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        margin-bottom: 3rem;
+        justify-content: center;
+    }
+    .header__nav p {
+        display: block;
+    }
+    .header__list {
+        display: none;
+    }
+    .header__nav:hover .header__list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .header__nav:hover p {
+        display: block;
+    }
+}
