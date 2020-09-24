@@ -15,10 +15,11 @@ const imc = peso / (altura ** 2);
 console.log(imc);
 
 if (imc <= 15) {
-    console.log("El paciente presenta delgadez");
+    console.log("El paciente presenta delgadez 💀");
 } else {
     if (imc > 25) {
-        console.log("El paciente presenta sobrepeso");
-    } else
-        console.log("Esta en su peso ideal");
+        console.log("El paciente presenta sobrepeso 🐷");
+    } else {
+        console.log("El paciente presenta un peso ideal 😁");
+    }
 }
