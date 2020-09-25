@@ -11,8 +11,8 @@
 
 const edades = [20, 12, 2, 0, 58, 25, 95, 3];
 for (let c = 0; c < edades.length; c++) {
-  if (edades[c] === 0) {
-    break;
-  }
-  console.log(edades[c]);
+    if (edades[c] === 0) {
+        break;
+    }
+    console.log(edades[c]);
 }
