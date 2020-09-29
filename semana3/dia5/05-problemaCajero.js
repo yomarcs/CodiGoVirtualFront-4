@@ -1,6 +1,8 @@
-/**
- * cuantos billetes de 20
- */
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!-- FrontEnd - JavaScript -->
+// <!-- ------------------------------------ -->
+// <!-- Video 16 - Problema cajero -->
+//===================================================
 
 let monto = 1980;
 console.log(`Monto inicial: ${monto}`);

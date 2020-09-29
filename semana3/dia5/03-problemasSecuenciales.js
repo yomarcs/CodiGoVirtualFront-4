@@ -1,8 +1,13 @@
-/**
- *  Problema 2.2 pagina 30 - Algoritmos Resueltos.
- * 
- * Por defecto todo lo ingresado en el prompt entra como String. Con el nuevo Standar: con "+" adelante lo convertimos a Num
- */
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!-- FrontEnd - JavaScript -->
+// <!-- ------------------------------------ -->
+// <!-- Video 16 - Problemas Secuenciales-->
+//===================================================
+// Problema 2.2 pagina 30 - Algoritmos Resueltos.
+// >> +prompt -> Por defecto todo lo ingresado en el prompt entra como String.
+//               Con el nuevo Standar de Js: con "+" delante lo convertimos a Num.
+//===================================================
+
 
 let c1 = +prompt("Ingrese la 1ra nota");
 let c2 = +prompt("Ingrese la 2da nota");
