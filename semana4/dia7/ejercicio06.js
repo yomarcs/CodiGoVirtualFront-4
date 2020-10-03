@@ -1,7 +1,11 @@
+// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!----------- FrontEnd - JavaScript ------------>
+// <!-- ---------------------------------------- -->
+// <!----------------- Repaso --------------------->
+//==================================================
 message('Ejercicio 6 :')
 
-//Ejercicio => Sorteo usuario
-//segun el id del usuario,retornar un usuario sorteado
+// Ejercicio -> Sorteo usuario, segun el id del usuario,retornar un usuario sorteado
 
 //random
 //id usuario unico y es entero

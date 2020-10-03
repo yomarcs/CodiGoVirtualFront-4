@@ -1,26 +1,35 @@
- /**
- * Funciones que reciben parametros
- */
+ // <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+ // <!---------- FrontEnd - JavaScript ------------>
+ // <!-- ------------------------------------ -->
+ // <!-- Video 19 - Funciones con Parametros -->
+ //=============================================================================
+ // >> Funciones con parametros -> Una vez que creas tu funcion y le asignas parametros
+ //                                es obligatorio al hacer la llamada a la funcion
+ //                                enviarle las variables o datos (parametros) que le
+ //                                asignaste a tu función si no te retornara error.
+ //=============================================================================
 
-function tablaDeMultiplicar(numero) {
-  for (let c = 0; c <= 10; c++) {
-    console.log(`${c} x ${numero} = ${c * numero}`);
-  }
-}
+ // Definimos la funcion
+ function tablaDeMultiplicar(numero) {
+     // Conjunto de instrucciones a ejecutar
+     for (let c = 0; c <= 10; c++) {
+         console.log(`${c} x ${numero} = ${c * numero}`);
+     }
+ }
 
-tablaDeMultiplicar(9);
-console.log("========");
-tablaDeMultiplicar(80);
-console.log("========");
-tablaDeMultiplicar(100);
+ // Invocar o llamar a la funcion
+ tablaDeMultiplicar(9);
+ console.log("========");
+ tablaDeMultiplicar(80);
+ console.log("========");
+ tablaDeMultiplicar(100);
 
-let arreglo = [5, 8, 4, 7, 2, 3];
-/**
- * imprimir la tabla de multiplicar de todos los elementos del
- * arreglo llamado "arreglo"
- */
+ let arreglo = [5, 8, 4, 7, 2, 3];
 
-for (let c = 0; c < arreglo.length; c++) {
-  console.log(`Tabla del ${arreglo[c]}`);
-  tablaDeMultiplicar(arreglo[c]);
-}
+ /* Ejercicio: imprimir la tabla de multiplicar de todos los elementos del
+               arreglo llamado "arreglo".*/
+
+ for (let c = 0; c < arreglo.length; c++) {
+     console.log(`Tabla del ${arreglo[c]}`);
+     tablaDeMultiplicar(arreglo[c]);
+ }

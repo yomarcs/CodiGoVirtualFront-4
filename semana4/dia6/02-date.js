@@ -1,40 +1,37 @@
-/**
- * date es la CLASE o tipo de dato que nos ayudará
- * a trabajar con fechas
- */
+// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!----------- FrontEnd - JavaScript ------------>
+// <!-- ---------------------------------------- -->
+// <!----------- Video 22 - date ------------------>
+//===================================================================================
+// >> date -> es la CLASE o tipo de dato que nos ayudará a trabajar con fechas.
+// >> fecha.getFullYear() -> Retorna el año de un objeto Date.
+// >> fecha.getMonth() -> Retorna el número de mes que corresponda en el calenadrio,
+//                        donde 0 es ENERO.
+// >> fecha.getDate() -> Retorna el número del día del mes.
+// >> fecha.getDay() -> Retorna el numero de dia de la semana donde 0 es el domingo.
+// >> numero.toFixed(cantidad_de_decimales) -> Retorna el número redondeado a una 
+//                                             cantidad_de_decimales pasada como parametro.
+// >> new Date(millisegundos) -> (millisegundos desde UNIX (1 enero 1970))
+//                            -> Inicializar una fecha en formato UNIX
+//===================================================================================
 
 let hoy = new Date();
 console.log(hoy);
 
-/**
- * fecha.getFullYear();
- * Retorna el año de un objeto Date
- */
-
+// >> fecha.getFullYear() -> Retorna el año de un objeto Date
 let anio = hoy.getFullYear();
 console.log(anio);
 
-/**
- * fecha.getMonth()
- * Retorna el número de mes que corresponda en el calenadrio
- * donde 0 es ENERO
- */
+// fecha.getMonth() -> Retorna el número de mes que corresponda en el calenadrio,
+//                     donde 0 es ENERO.
 let mes = hoy.getMonth();
 console.log(mes);
 
-/**
- * fecha.getDate()
- * Retorna el número del día del mes
- */
+// fecha.getDate() -> Retorna el número del día del mes.
 let diaMes = hoy.getDate();
 console.log(diaMes);
 
-/**
- * fecha.getDay();
- * Retorna el numero de dia de la semana donde
- *  0 es el domingo
- */
-
+// fecha.getDay() -> Retorna el numero de dia de la semana donde 0 es el domingo.
 let diaSemana = hoy.getDay();
 console.log(diaSemana);
 
@@ -47,10 +44,7 @@ console.log(`minutos actual = ${minutos}`);
 console.log(`segundos actual = ${segundos}`);
 console.log(`milisegundos actual = ${milisegundos}`);
 
-/**
- * ¿Cómo inicializo un objeto date con una fecha distinta?
- */
-
+// ¿Cómo inicializo un objeto date con una fecha distinta?
 let halloween2020 = new Date(2020, 9, 31);
 console.log(halloween2020);
 
@@ -59,15 +53,11 @@ console.log(halloweenMenosHoy);
 
 let diasParaHalloween = halloweenMenosHoy / 1000 / 60 / 60 / 24;
 
-// numero.toFixed(cantidad_de_decimales)
-// retorna el número redondeado a una cantidad_de_decimales
-// pasada como parametro
+// numero.toFixed(cantidad_de_decimales) -> Retorna el número redondeado a una 
+//                                          cantidad_de_decimales pasada como parametro.
 console.log(`Dias para Halloween: ${diasParaHalloween.toFixed(2)}`);
 
-/**
- * Inicializar una fecha en formato UNIX
- * new Date(millisegundos) (millisegundos desde UNIX (1 enero 1970))
- */
-
+// Inicializar una fecha en formato UNIX
+// new Date(millisegundos) (millisegundos desde UNIX (1 enero 1970))
 let fechaPronostico = new Date(1601154000 * 1000);
 console.log(fechaPronostico);

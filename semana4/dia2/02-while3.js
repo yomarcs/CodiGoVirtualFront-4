@@ -1,10 +1,14 @@
-/**
- * Leer tantos números como el usuario decida
- * en cada iteración, al final mostrar la sumatoria
- * (el usuario debe ingresar "s" en caso de que quiera
- * ingresar un siguiente número y "n" cuando el usuario
- * ya no desee ingresar más números)
- */
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!---------- FrontEnd - JavaScript ------------>
+// <!-- ------------------------------------ -->
+// <!-- Video 18 - Estructuras Condicionales - Arreglos-->
+//=============================================================================
+// while ( condicion )
+//=============================================================================
+// >> ejercicio: Leer tantos números como el usuario decida en cada iteración,
+//               al final mostrar la sumatoria (el usuario debe ingresar "s" en
+//               caso de que quiera ingresar un siguiente número y "n" cuando
+//               el usuario ya no desee ingresar más números)
 
 let rpta = "s";
 let sumatoria = 0;

@@ -1,6 +1,15 @@
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!-- FrontEnd - JavaScript -->
+// <!-- ------------------------------------ -->
+// <!-- Video 17 - Estructuras Condicionales -->
+//=============================================================================
+// >> const -> Contenedor de informacion que no podra modificarse una vez definido.
+//             Es un identificador que define una constante. se inicializacon un valor
+//             y nunca mas cambia de valor durante la ejecución del programa.
+//=============================================================================/**
 /**
- * Cacular el mayor de 3 numeros (asumineod que todos son * diferentes y mostrarlos por consola)
- * Los numeros pueden ser ingresados por el usuario o * *declararlos al inicio del programa.
+ * Cacular el mayor de 3 numeros (asumiendo que todos son diferentes y mostrarlos por consola)
+ * Los numeros pueden ser ingresados por el usuario o declarados al inicio del programa.
  */
 
 let nro1 = +prompt("Mayor y Menor.\nIngrese primer nro: ");

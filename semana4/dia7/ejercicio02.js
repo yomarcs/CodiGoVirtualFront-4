@@ -1,19 +1,24 @@
+// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!----------- FrontEnd - JavaScript ------------>
+// <!-- ---------------------------------------- -->
+// <!----------------- Repaso --------------------->
+//==================================================
+
 message('Ejercicio 2 :')
 
-
-//Ejercicio 2 => Traer usuarios por nombres
+// Ejercicio 2 => Traer usuarios por nombres
 // diego => traer todos los usuarios que tengan como nombre diego
-console.log(users)
+console.log(users);
 
-function getUserByName(name){
+function getUserByName(name) {
     let upperName = name.toUpperCase();
-    let usersByName = users.filter((user)=>{        
+    let usersByName = users.filter((user) => {
         return user.name.toUpperCase() === upperName;
     });
-    let userByNameFind = users.find((user)=>{
+    let userByNameFind = users.find((user) => {
         return user.name.toUpperCase() === upperName;
     })
-    console.log(userByNameFind)
+    console.log(userByNameFind);
     console.table(usersByName);
 }
 

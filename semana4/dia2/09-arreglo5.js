@@ -1,6 +1,12 @@
-/**
- * Llenar un arreglo con N numeros ingresados por el usuario
- */
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!---------- FrontEnd - JavaScript ------------>
+// <!-- ------------------------------------ -->
+// <!-- Video 18 - Estructuras Condicionales - Arreglos -->
+//=============================================================================
+// >> arreglo.push(elemento) -> agrega un elemento al final de los elementos 
+//                              (ultima posición) de un arreglo
+//=============================================================================
+// Ejercicio: Llenar un arreglo con N numeros ingresados por el usuario
 
 const n = 5;
 let numeros = [];

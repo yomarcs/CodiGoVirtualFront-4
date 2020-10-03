@@ -1,11 +1,17 @@
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!-- FrontEnd - JavaScript -->
+// <!-- ------------------------------------ -->
+// <!-- Video 17 - Estructuras Condicionales -->
+//=============================================================================
+// >> Operadores lógicos.
+//    && and y
+//    || or o
+//    ! not negación 
+//=============================================================================/**
 /**
- * Operadores lógicos
- * 
- * && and y
- * || or o
- * ! not negación
- * 
- * El ejercio del mayor de 3 numeros con operadores logicos.
+ * >> Ejercicio: Cacular el mayor de 3 numeros (asumiendo que todos son diferentes 
+ *               y mostrarlos por consola). Los numeros pueden ser ingresados por 
+ *               el usuario o declarados al inicio del programa.
  */
 
 let nro1 = +prompt("Mayor y Menor.\nIngrese primer nro: ");

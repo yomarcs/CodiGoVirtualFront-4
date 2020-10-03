@@ -1,33 +1,33 @@
-/**
- * OBJETOS
- * Los objetos se crean a través de la abstracción
- * de los elementos que querramos crear o representar
- *
- * Abstraer, significa llevar características de un entorno real
- * a un entorno virtual
- */
+// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!----------- FrontEnd - JavaScript ------------>
+// <!-- ---------------------------------------- -->
+// <!------------- Video 20 - Objetos ------------->
+//===================================================================================
+// >> Objetos -> Los objetos se crean a través de la abstracción de los elementos
+//               que querramos crear o representar
+//            -> Abstraer, significa llevar características de un entorno real a un
+//               entorno virtual.
 
 let mascota = {
-  nombre: "Kyra",
-  raza: "Bull Terrier",
-  tipo: "perro",
-  edad: 1,
-  vacuna: false,
-  habilidades: [
-    {
-      nombre: "Se hace el muertito",
-      nivel: "experto",
+    nombre: "Kyra",
+    raza: "Bull Terrier",
+    tipo: "perro",
+    edad: 1,
+    vacuna: false,
+    habilidades: [{
+            nombre: "Se hace el muertito",
+            nivel: "experto",
+        },
+        {
+            nombre: "Se para en dos patitas",
+            nivel: "intermedio",
+        },
+    ],
+    colores: ["negro", "cafe", "blanco"],
+    propietario: {
+        nombre: "Jorge Garnica",
+        direccion: "Av. Siempreviva ",
     },
-    {
-      nombre: "Se para en dos patitas",
-      nivel: "intermedio",
-    },
-  ],
-  colores: ["negro", "cafe", "blanco"],
-  propietario: {
-    nombre: "Jorge Garnica",
-    direccion: "Av. Siempreviva ",
-  },
 };
 
 console.log(mascota);
@@ -44,10 +44,10 @@ console.log("Dirección: " + mascota.propietario.direccion);
 
 // imprimiendo todos los colores de la mascotilla
 mascota.colores.forEach((elemento, i) => {
-  console.log(`${i + 1} - ${elemento}`);
+    console.log(`${i + 1} - ${elemento}`);
 });
 
 // imprimiendo los nombres de las habilidades
 mascota.habilidades.forEach((habilidad, i) => {
-  console.log(habilidad.nombre);
+    console.log(habilidad.nombre);
 });

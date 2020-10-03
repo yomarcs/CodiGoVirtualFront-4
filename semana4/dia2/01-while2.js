@@ -1,8 +1,12 @@
-/**
- * Hacer un algoritmo para leer n números
- * y al final del proceso, mostrar la sumatoria de todos
- * ellos
- */
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!---------- FrontEnd - JavaScript ------------>
+// <!-- ------------------------------------ -->
+// <!-- Video 18 - Estructuras Condicionales - Arreglos-->
+//=============================================================================
+// while ( condicion )
+//=============================================================================
+// >> ejercicio: Hacer un algoritmo para leer n números y al final del proceso,
+//               mostrar la sumatoria de todos ellos.
 
 const n = 10;
 let c = 0;

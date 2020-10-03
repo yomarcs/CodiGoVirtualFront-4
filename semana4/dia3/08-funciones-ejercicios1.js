@@ -1,17 +1,24 @@
-/**
- * Crear un algoritmo donde exista una función
- * que reciba un arreglo de edades y retorne
- * a todos los mayores de edad en un nuevo arreglo
- */
+// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
+// <!---------- FrontEnd - JavaScript ------------>
+// <!-- ------------------------------------ -->
+// <!-- Video 19 - Funciones -->
+//===================================================================================
+// >> Funciones flecha -> Es una funcion anonima sólo que está escrito en sintaxis 
+//                        moderna de JavaScript, a la cual se le reemplazo la palabra
+//                        clave function por una flecha ( => ).
+//===================================================================================
+/* Ejercicio: Crear un algoritmo donde exista una función
+              que reciba un arreglo de edades y retorne
+              a todos los mayores de edad en un nuevo arreglo. */
 
 const filtroMayores = (edades) => {
-  let mayores = [];
-  for (let c = 0; c < edades.length; c++) {
-    if (edades[c] >= 18) {
-      mayores.push(edades[c]);
+    let mayores = [];
+    for (let c = 0; c < edades.length; c++) {
+        if (edades[c] >= 18) {
+            mayores.push(edades[c]);
+        }
     }
-  }
-  return mayores;
+    return mayores;
 };
 
 let arreglo = [12, 19, 17, 58, 42, 10];
