@@ -1,15 +1,22 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 19 - Funciones -->
-//===================================================================================
-// >> Funciones flecha -> Es una funcion anonima sólo que está escrito en sintaxis 
-//                        moderna de JavaScript, a la cual se le reemplazo la palabra
-//                        clave function por una flecha ( => ).
-//===================================================================================
-/* Ejercicio: Crear un algoritmo donde exista una función
-              que reciba un arreglo de edades y retorne
-              a todos los mayores de edad en un nuevo arreglo. */
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------------- Video 19 ----------->
+// <!----- Funciones - ejercicios ----->
+//====================================//
+// Funciones flecha
+// Es una funcion anonima sólo que está
+// escrito en sintaxis moderna de Java
+// Script, a la cual se le reemplazo la
+// palabra clave function por una flecha
+// ( => ).
+//====================================//
+// Ejercicio.
+// Crear un algoritmo donde exista una 
+// función que reciba un arreglo de eda
+// des y retorne a todos los mayores de
+// edad en un nuevo arreglo.
 
 const filtroMayores = (edades) => {
     let mayores = [];

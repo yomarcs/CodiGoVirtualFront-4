@@ -1,7 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!-------- Video 20 - Propiedades Arrays ------->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------------- Video 20 ----------->
+// <!----------- Array.map ---------->
+//====================================//
 //===================================================================================
 // >> map -> es una función propia de los arreglos y el comportamiento es muy similar
 //           a la función filter sin embargo, en la función map, se retornan siempre,

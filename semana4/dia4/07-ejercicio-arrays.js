@@ -13,14 +13,6 @@
    nos diga si esta en el array y ademas que nos diga su posición.
 */
 //================================================================//
-/* 1. pida 6 numeros por pantalla y los ingrese a un array.
-var array = new Array();
-for(var i=1; i<=6;i++){
-	var elemento = prompt(String("Ingrese el " + i + " dato del array:"),"");
-	array.push(elemento);
-}
-*/
-// 1. Solucion del profe
 
 function mostrarArray(elementos, textoCustom = "") {
     document.write("<h1>Contenido del array" + textoCustom + "</h1>");
@@ -29,6 +21,14 @@ function mostrarArray(elementos, textoCustom = "") {
     document.write("</ul><hr>");
 }
 
+/* 1. pida 6 numeros por pantalla y los ingrese a un array.
+var array = new Array();
+for(var i=1; i<=6;i++){
+	var elemento = prompt(String("Ingrese el " + i + " dato del array:"),"");
+	array.push(elemento);
+}
+*/
+// 1. Solucion del profe
 //var numeros = new Array(6);
 var numeros = []
 for (var i = 0; i <= 5; i++) {

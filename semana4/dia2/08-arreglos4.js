@@ -1,7 +1,8 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 18 - Estructuras Condicionales - Arreglos-->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------- Video 18 - Arreglos ------>
 //=============================================================================
 //=============================================================================
 // >> Ejercicio: Dado un arreglo de números enteros imprimir por consola, la tabla de

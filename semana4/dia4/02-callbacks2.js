@@ -1,7 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!------------ Video 20 - Callbacks2 ----------->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------------- Video 20 ----------->
+// <!----------- callbacks 2 ---------->
+//====================================//
 //===================================================================================
 // >> callbacks -> Es una función anónima que se le pasa como parametro a otra función.
 // >> Funciones de flecha -> Es otra forma de definir funciones de callback,

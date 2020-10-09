@@ -1,7 +1,8 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 19 - break -->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!--------- Video 19 - break ------->
 //=============================================================================
 // >> break -> La sentencia "break" determina el fin de una estructura iterativa
 //             (for, while, do-while, switch) ¿Cuando? todo depende de la lógica

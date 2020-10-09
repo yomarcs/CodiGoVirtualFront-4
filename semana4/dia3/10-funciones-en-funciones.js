@@ -1,7 +1,9 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 19 - Funciones en funciones -->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------------- Video 19 ----------->
+// <!----- Funciones en funciones ----->
 //===================================================================================
 
 const areaCirculo = (r) => {

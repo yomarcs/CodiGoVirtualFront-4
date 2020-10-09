@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #eee;
+}
+
+.main {
+    position: relative;
+    margin: 20px auto;
+    background-color: yellow;
+}

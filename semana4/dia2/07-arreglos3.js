@@ -1,7 +1,8 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 18 - Estructuras Condicionales - Arreglos-->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------- Video 18 - Arreglos ------>
 //=============================================================================
 // >> Array.length -> Imprimir el tamaño del arreglo o la cantidad de elementos que tiene.
 //=============================================================================

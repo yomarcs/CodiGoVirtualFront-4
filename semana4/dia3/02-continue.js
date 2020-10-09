@@ -1,7 +1,8 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 19 - continue -->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------- Video 19 - continue ------>
 //=============================================================================
 // >> continue -> interrumpe la iteración que se encuentra desarrollando una 
 //                estructura repetitiva, sin embargo, hace que se continúe con

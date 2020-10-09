@@ -1,12 +1,13 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 18 - Estructuras Condicionales - Arreglos-->
-//=============================================================================
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------- Video 18 - Arreglos ------>
+//============================================================================//
 // >> arreglo = [] -> Iniciando un arreglo vacío
 // >> arreglo.push(elemento) -> agrega un elemento al final de los elementos 
 //                              (ultima posición) de un arreglo
-//=============================================================================
+//============================================================================//
 
 // Iniciando un arreglo vacío
 let nombres = [];

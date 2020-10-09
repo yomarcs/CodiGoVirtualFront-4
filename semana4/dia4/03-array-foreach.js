@@ -1,15 +1,18 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!-------- Video 20 - Propiedades Arrays ------->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------------- Video 20 ----------->
+// <!------ Propiedades Arrays -------->
+//====================================//
 //===================================================================================
 // forEach -> sirve para recorrer un arreglo sin necesidad de usar un ciclo for.
 //         -> recibe una función anónima la cual ejecutará tantas veces como 
 //            elementos tenga mi arreglo
 //         -> internamente se realiza un callback.
 //                              0      1     2
-//         -> Array.forEach((elemento,index,array)=>{}
-//         -> Podemos pasarle solo el parametro que en este caso le hemos puesto 
+//         -> Array.forEach((elemento,index,array)=>{});
+//       0 -> Podemos pasarle solo el parametro que en este caso le hemos puesto 
 //            de nombre "elemento" y se imprimira solo los elementos del array.
 //         -> Podemos agregarle mas parametros que tendran diferentes funciones.
 //       1 -> en esta posición nos imprimira  tambien el index o posición de cada elemento.
@@ -35,7 +38,7 @@ var nombres = ["Yomar Cerdán", "Fabian Cerdán", "Gabriel Cerdán", 58, true];
 
 //Otra forma de definir un array es como un objeto.
 var lenguajes = new Array("PHP", "JavaScript", "Go", "Java", "C#", "C", "C++", "Pascal", "Fortran");
-//                           0       1        2      3
+//                           0       1        2        3
 
 console.log(nombres);
 console.log(lenguajes);

@@ -1,0 +1,35 @@
+MODELO DE NEGOCIO
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Documento de especificación del modelo del negocio
+ 
+Proyecto: “El Bodegón”
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+05 de Octubre del 2020
+DOCUMENTO DE DEFINICIÓN DE MODELO DE NEGOCIO – El BODEGÓN
+ 
+El presente documento tiene como finalidad describir correctamente una lista de procesos en el modelo de negocio de la tienda virtual “El Bodegón”. website basada en la venta de productos ofrecidos por categorías, estos productos serán seleccionados y añadidos a un carrito de compras para su venta final.
+Descripción General del Modelo de Negocio:
+El website consiste en la compra por parte del usuario, de productos variados ofrecidos por categorías, que como requisito tendrá que iniciar sesión mediante email y contraseña  o tener la posibilidad de ingresar con cuenta de facebook o cuenta de google, que servirán para identificar su perfil, notificar los estados de su compra, guardar su historial de compras y facilitar el proceso de compras.
+El website mostrará al usuario en su vista principal un carrusel de productos, desde donde se ofrecerán las mejores ofertas del día mostrando una breve descripción del producto, y desde donde los usuarios podrán acceder a una descripción más detallada con solo darle click a la imagen, mostrando el código de producto, sus diferentes características y una imagen mayor del producto, en este apartado también aparecerá la opción de agregar al carrito de compras, y la opción de finalizar compra desde donde podrá ver el detalle de todos los productos seleccionados, montos subtotales y valor total de la compra. El usuario además tendrá beneficios por su compra, acumulando puntos que serán canjeados como descuentos adicionales en productos seleccionados 
+Una vez aceptado el valor de la compra seguirá el proceso de método de entrega desde donde el usuario ingresará su dirección y podrá tener la posibilidad de  agregar un puntero en google maps para mayor facilidad de entrega.
+El siguiente proceso será el método de pago, el usuario tendra la opcion de cancelar con visa, yape, paypal.etc
+Desde una zona administrativa la empresa podrá actualizar, remover o modificar las ofertas, así como los productos ofrecidos.

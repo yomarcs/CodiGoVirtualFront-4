@@ -1,16 +1,17 @@
 /**
  * Arreglos
  */
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 18 - Estructuras Condicionales - Arreglos-->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------- Video 18 - Arreglos ------>
 //=============================================================================
 // >> Arrays -> tambien coconidos como Arreglos y Matrices.
 //           -> Es una colección de tipos de datos que puede tener una variable.
 //           -> Para recorrer un array podemos utilizar "for" o "forEach".
-//    Arrays[1] -> imprimir un solo elemento del arreglo dada su posición.
-// Array.length -> Imprimir el tamaño del arreglo o la cantidad de elementos que tiene.
+//     Arrays[1] -> imprimir un solo elemento del arreglo dada su posición.
+// Arrays.length -> Imprimir el tamaño del arreglo o la cantidad de elementos que tiene.
 //=============================================================================
 
 const numeros = [5, -1, 11, 777];

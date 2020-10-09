@@ -1,7 +1,8 @@
-// <!-- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!---------- FrontEnd - JavaScript ------------>
-// <!-- ------------------------------------ -->
-// <!-- Video 19 - Funciones -->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------- Video 19 - funciones ----->
 //=============================================================================
 // >> Funciones -> una función es un conjunto de lineas de código que se
 //                 ejecutarán cuando sean invocados, no antes, no después.

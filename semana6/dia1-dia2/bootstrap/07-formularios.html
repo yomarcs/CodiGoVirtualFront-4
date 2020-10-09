@@ -1,0 +1,161 @@
+<!-- Las clases se denominan utilizando el formato {property}{sides}-{size}de xsy {property}{sides}-{breakpoint}-{size}para sm, md, lg, y xl.
+
+        Donde la propiedad es una de:
+        m - para clases que establecen margin
+        p - para clases que establecen padding
+
+        Donde lados es uno de:
+        t- para clases que establecen margin-topopadding-top
+        b- para clases que establecen margin-bottomopadding-bottom
+        l- para clases que establecen margin-leftopadding-left
+        r- para clases que establecen margin-rightopadding-right
+        x- para clases que establecen tanto *-lefty*-right
+        y- para clases que establecen tanto *-topy*-bottom
+        en blanco: para clases que establecen a margino paddingen los 4 lados del elemento
+        
+        Donde el tamaño es uno de:
+        0- para clases que eliminan el margino paddingconfigurándolo en0
+        1- (por defecto) para clases que establecen el margino paddingen$spacer * .25
+        2- (por defecto) para clases que establecen el margino paddingen$spacer * .5
+        3- (por defecto) para clases que establecen el margino paddingen$spacer
+        4- (por defecto) para clases que establecen el margino paddingen$spacer * 1.5
+        5- (por defecto) para clases que establecen el margino paddingen$spacer * 3
+        auto- para clases que configuran el marginen automático -->
+
+<!DOCTYPE html>
+<html lang="es-PE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body class="bg-light">
+
+    <h1 class="display-4 text-primary text-center mt-5">Formularios en Bootstrap</h1>
+    <hr>
+    <main class="container">
+        <h3>Formulario de 1 sola columna</h3>
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <form>
+
+                    <div class="form-group">
+                        <label for="">Nombre del Plato:</label>
+                        <input type="text" class="form-control" placeholder="Ejm: Seco de cabrito">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control" placeholder="Ejm: correo@correo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Categoria</label>
+                        <select name="" id="" class="form-control">
+                            <option value="0"> -- seleccione --</option>
+                            <option value="1">Entrada</option>
+                            <option value="2">Plato de Fondo</option>
+                            <option value="3">Postre</option>
+                            <option value="4">Bebida</option>
+                        </select>
+                        <!-- text-muted -> olor casi blanco no importante -->
+                        <!-- text-dange -> color rojo 
+                        <!-- text-success -> color verde -->
+                        <small class="text-danger">* Este campo es obligatorio</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Ingredientes:</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input id="inputCebolla" type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                            <label for="inputCebolla" class="form-control">Cebolla</label>
+                        </div>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input id="inputAjos" type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                            <label for="inputAjos" class="form-control">Ajos</label>
+                        </div>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input id="inputPollo" type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                            <label for="inputPollo" class="form-control">Pollo</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Tiempo de Cocción</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input id="radio1-2" name="radioTiempo" type="radio" aria-label="Radio button for following text input">
+                                </div>
+                            </div>
+                            <label for="radio1-2" class="form-control">De 1 a 2 horas</label>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input id="radio2-3" name="radioTiempo" type="radio" aria-label="Radio button for following text input">
+                                </div>
+                            </div>
+                            <label for="radio2-3" class="form-control">De 2 a 3 horas</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Preparación</label>
+                        <textarea cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-primary" type="submit">Crear Plato</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3 class="justify-content-center">Formulario de 2 columnas</h3>
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <!-- esta Linea es la clave para la presentacio en columnas-->
+                <form class="row">
+                    <div class="form-group col-md-6">
+                        <label for="">Nombres:</label>
+                        <input type="text" class="form-control" placeholder="Nombres" name="" id="">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="">Apellidos:</label>
+                        <input type="text" class="form-control" placeholder="Nombres" name="" id="">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

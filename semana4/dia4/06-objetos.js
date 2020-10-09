@@ -1,8 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!------------- Video 20 - Objetos ------------->
-//===================================================================================
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------------- Video 20 ----------->
+// <!------------ Objetos ------------>
+//====================================//
 // >> Objetos -> Los objetos se crean a través de la abstracción de los elementos
 //               que querramos crear o representar
 //            -> Abstraer, significa llevar características de un entorno real a un

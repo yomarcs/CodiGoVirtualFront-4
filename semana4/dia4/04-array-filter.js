@@ -1,7 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!-------- Video 20 - Propiedades Arrays ------->
+// <!---- Desarrollo Web FullStack ---->
+// <!-------- CodiGo - Tecsup --------->
+// <!----- FrontEnd - JavaScript ------>
+// <!---------------------------------->
+// <!------------- Video 20 ----------->
+// <!----------- Array.filter --------->
+//====================================//
 //===================================================================================
 // filter -> filter es una función propia de los arreglos, recibe un callback con
 //           los mismos parametros que la función forEach, la diferencia es que 
