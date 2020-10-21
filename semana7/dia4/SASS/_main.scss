@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: $white;
+    background: $color2;
+}

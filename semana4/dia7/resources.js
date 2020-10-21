@@ -1,8 +1,9 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!----------------- Repaso --------------------->
-//==================================================
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<-------------- Repaso -------------->
+//<--================================-->
 
 const users = [{
         userId: 1,
@@ -54,18 +55,18 @@ const users = [{
     },
     {
         userId: 4,
-        name: 'Jhon',
-        lastName: 'Doe',
-        active: false,
-        email: 'jhoncito_xiquitito@hotmail.com',
+        name: 'Yomar',
+        lastName: 'Cerdán',
+        active: true,
+        email: 'yomarcs@hotmail.com',
         address: {
-            name: 'Los sauces',
+            name: 'Canto Rey',
             geo: {
                 lat: "-43.1521",
                 lng: "-34.3518"
             }
         },
-        age: 20,
+        age: 36,
         courses: [1, 2, 3, 4, 5]
     },
 ]

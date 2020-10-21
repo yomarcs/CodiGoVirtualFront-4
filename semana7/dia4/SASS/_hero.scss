@@ -1,0 +1,16 @@
+.hero {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $color1;
+    h2 {
+        font-weight: bold;
+        font-size: 35px;
+        color: $white;
+    }
+    .btn-hero {
+        margin-top: 30px;
+    }
+}

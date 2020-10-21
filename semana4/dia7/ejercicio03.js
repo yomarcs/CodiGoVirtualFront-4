@@ -1,11 +1,14 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!----------------- Repaso --------------------->
-//==================================================
-//Ejercicio 3 -> Validar si el usuario es mayor de edad
-//               si es mayor de edad ponerle dentro del 
-//               campo "age" como mayor de edad y sino menor de edad
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<-------------- Repaso -------------->
+//<--================================-->
+// >> Ejercicio 3
+//    -> Validar si el usuario es mayor
+//       de edad si es mayor de edad ponerle 
+//       dentro del campo "age" como mayor
+//       de edad y sino menor de edad
 
 message("Ejercicio 3 :", "red");
 
@@ -30,4 +33,4 @@ function getAdultsUser2() {
     })
     console.log(user)
 }
-getAdultsUser2();
+getAdultsUser();

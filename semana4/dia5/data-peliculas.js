@@ -1,8 +1,9 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!---------- Video 21 - Data Película ---------->
-//==================================================
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<----- Video 21 - Data Película ----->
+//<--================================-->
 
 const peliculas = [{
         popularity: 2241.471,

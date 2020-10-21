@@ -1,23 +1,30 @@
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<-------------- Repaso -------------->
+//<--================================-->
+
 console.log("===Bonus===");
 
 function validateDataType(value) {
-  if (typeof value === "string") {
-    return value.toUpperCase();
-  }
- 
-  return value;
+    if (typeof value === "string") {
+        return value.toUpperCase();
+    }
+
+    return value;
 }
 
-function getDataByIndex(value,index,arr) {
+function getDataByIndex(value, index, arr) {
     let parseValue = validateDataType(value)
     console.log(parseValue)
-    let dataFilter = arr.filter((arrValue)=>{
+    let dataFilter = arr.filter((arrValue) => {
         return validateDataType(arrValue[index]) === parseValue;
     })
     console.log(dataFilter)
 }
 
-getDataByIndex("diego","name",users)
+getDataByIndex("diego", "name", users)
 
 // let numero = 1;
 // let caracter = "aa";

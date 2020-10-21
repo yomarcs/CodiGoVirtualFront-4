@@ -1,8 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!----------- Video 22 - Math ------------------>
-//===================================================================================
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<------------- Video 22 ------------->
+//<-------------- Math ---------------->
+//<--==============================================================================-->
 // >> Math -> Nos ayuda a trabajar con funciones matemáticas
 //         -> Para usar la clase math y sus métodos no se necesita crear un objeto.
 // >> Math.random() -> Retorna un número aleatorio entre 0 y 1.

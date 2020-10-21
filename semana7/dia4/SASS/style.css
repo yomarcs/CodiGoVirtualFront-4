@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background: #425053;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #425053;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  cursor: pointer;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: salmon;
+}
+
+.hero {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: salmon;
+}
+
+.hero h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+}
+
+.hero .btn-hero {
+  margin-top: 30px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+footer {
+  background-color: #425053;
+  color: white;
+  text-align: center;
+  padding: 32px 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!--------------- Video 23 --------------------->
-//=======================================================================================
+//<!---- Desarrollo Web FullStack ----->
+//<!--------- CodiGo - Tecsup --------->
+//<!------ FrontEnd - JavaScrit ------->
+//<!----------------------------------->
+//<!------------- Video 23 ------------>
+//<!--- windows -document - element --->
+//<!--==============================--->
 
 const estilos = document.getElementById("estilos");
 const btnTema = document.getElementById("btnTema");

@@ -1,8 +1,9 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!----------------- Repaso --------------------->
-//==================================================
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<-------------- Repaso -------------->
+//<--================================-->
 
 // Ejercicio 01 => Traer los usuarios activos
 let usuariosActivos = users.filter((user) => {

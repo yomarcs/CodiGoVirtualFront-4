@@ -1,15 +1,18 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!----------------- Repaso --------------------->
-//===========================================================================
-// window -> Es un objeto que está creado automáticamente en el navegador
-//        -> En él se encuentran todas las funciones y propiedades para
-//           manipular al DOM, y demás características del navegador
-// window.document -> propiedad que manipula al DOM
-// window.innerWidth -> retorna el ancho de la ventana en pixeles
-// window.innerHeight -> retorna el alto de la ventana en pixeles
-//============================================================================
+//<----- Desarrollo Web FullStack ----->
+//<--------- CodiGo - Tecsup ---------->
+//<------ FrontEnd - JavaScript ------->
+//<------------------------------------>
+//<------------- Video 23 ------------->
+//<--- windows -document - element ---->
+//<--================================-->
+// >> window 
+//    -> Es un objeto que está creado automáticamente en el navegador
+//    -> En él se encuentran todas las funciones y propiedades para
+//       manipular al DOM, y demás características del navegador
+// >> window.document -> propiedad que manipula al DOM
+// >> window.innerWidth -> retorna el ancho de la ventana en pixeles
+// >> window.innerHeight -> retorna el alto de la ventana en pixeles
+//=====================================================================
 
 const ancho = window.innerWidth;
 const alto = window.innerHeight;

@@ -1,12 +1,20 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!---------- Video 24 - Eventos ---------------->
-//===========================================================================================
-// >> elemento.removeAttribute("atributo") -> Eliminar un atributo de un elemento.
-// >> form.onsubmit = evento que se desencadena cuando queremos procesar o enviar el formulario.
-// >> evento.preventDefault() -> Detiene el comporatmiento por defecto de un evento.
-//===========================================================================================
+//<!---- Desarrollo Web FullStack ----->
+//<!--------- CodiGo - Tecsup --------->
+//<!------ FrontEnd - JavaScrit ------->
+//<!----------------------------------->
+//<!------------- Video 24 ------------>
+//<!-------------- Eventos ------------>
+//<!--==============================--->
+//==========================================================
+// >> elemento.removeAttribute("atributo")
+//    -> Eliminar un atributo de un elemento.
+//
+// >> form.onsubmit = evento que se desencadena
+//    Cuando queremos procesar o enviar el formulario.
+//
+// >> evento.preventDefault()
+//    -> Detiene el comporatmiento por defecto de un evento.
+//==========================================================
 
 const formulario = document.getElementById("formulario");
 const link = document.getElementById("link");
@@ -22,7 +30,8 @@ const limpiarErrores = () => {
     formulario.classList.remove("borde-rojo");
     // ocultar el small (helper)
     helper.setAttribute("hidden", true);
-    // OJO, si el helper ya estaba oculto, que lo oculte nuevamente no va generar ningún error en el sistema
+    // OJO, si el helper ya estaba oculto, que lo oculte
+    // nuevamente no va generar ningún error en el sistema
 };
 
 const generarError = () => {
@@ -98,6 +107,9 @@ const redibujarTbody = () => {
 };
 
 // >> form.onsubmit = evento que se desencadena cuando queremos procesar o enviar el formulario.
+// >> ¿Cómo se configura un evento? 
+//    -> forma 1 -> elemento.on[evento] = () => {};
+//    -> forma 2 -> elemento.addEventListener("[evento]",()=>{});
 formulario.addEventListener("submit", (evento) => {
     // ¿Por qué se actualiza la página con el submit?
     // Porque es el comportamiento por defecto de dicho evento

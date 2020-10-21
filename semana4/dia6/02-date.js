@@ -1,8 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!----------- Video 22 - date ------------------>
-//===================================================================================
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<------------- Video 22 ------------->
+//<-------------- date ---------------->
+//<--==============================================================================-->
 // >> date -> es la CLASE o tipo de dato que nos ayudará a trabajar con fechas.
 // >> fecha.getFullYear() -> Retorna el año de un objeto Date.
 // >> fecha.getMonth() -> Retorna el número de mes que corresponda en el calenadrio,

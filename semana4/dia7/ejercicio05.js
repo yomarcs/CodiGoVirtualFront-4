@@ -1,11 +1,13 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!----------------- Repaso --------------------->
-//==================================================
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<-------------- Repaso -------------->
+//<--================================-->
 
 message('Ejercicio 5')
-    // Ejercicio5 -> traer usuarios que tengan un dominio gmail.com
+    // >> Ejercicio5 
+    //    -> traer usuarios que tengan un dominio gmail.com
     // console.log(users)
 
 function getUserByMail(dominio) {

@@ -1,10 +1,12 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!------------- Video 21 - Objetos ------------->
-//===================================================================================
-// Ejercicio - Algoritmo para guardar N personas y registrar de cada un nombre,
-//             apellido y edad. Guardarlo en un arreglo de objetos e imprimirlo.
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<-------- Video 21 - Objetos -------->
+//<--================================-->
+// >> Ejercicio.
+//    Algoritmo para guardar N personas y registrar de cada uno  nombre,
+//    apellido y edad. Guardarlo en un arreglo de objetos e imprimirlo.
 
 const registrarPersonas = () => {
     const n = 3;

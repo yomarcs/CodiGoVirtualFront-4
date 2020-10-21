@@ -1,8 +1,10 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!--------------- Video 24 --------------------->
-//==================================================
+//<!---- Desarrollo Web FullStack ----->
+//<!--------- CodiGo - Tecsup --------->
+//<!------ FrontEnd - JavaScrit ------->
+//<!----------------------------------->
+//<!------------- Video 24 ------------>
+//<!----------- dom - eventos --------->
+//<!--==============================--->
 
 const navLista = document.getElementById("navLista");
 const tbody = document.getElementById("tbody");

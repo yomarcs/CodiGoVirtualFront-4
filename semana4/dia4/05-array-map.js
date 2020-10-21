@@ -1,16 +1,15 @@
-// <!---- Desarrollo Web FullStack ---->
-// <!-------- CodiGo - Tecsup --------->
-// <!----- FrontEnd - JavaScript ------>
-// <!---------------------------------->
-// <!------------- Video 20 ----------->
-// <!----------- Array.map ---------->
-//====================================//
-//===================================================================================
-// >> map -> es una función propia de los arreglos y el comportamiento es muy similar
-//           a la función filter sin embargo, en la función map, se retornan siempre,
-//           todos los elementos del arreglo porque su objetivo principal es armar
-//           un nuevo arreglo con algunos o todos los elementos modificados.
-//===================================================================================
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<------- Video 20 - Array.map ------->
+//<--================================-->
+// >> map
+//    Es una función propia de los arreglos y el comportamiento es muy similar
+//    a la función filter sin embargo, en la función map, se retornan siempre,
+//    todos los elementos del arreglo porque su objetivo principal es armar un
+//    nuevo arreglo con algunos o todos los elementos modificados.
+//<--=========================================================================->
 
 const numeros = [12, -3, 0, -9, 67, 0, -10, 0, -500, -4, 32, 33];
 

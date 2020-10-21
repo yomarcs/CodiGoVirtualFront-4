@@ -1,12 +1,14 @@
-// <!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-// <!----------- FrontEnd - JavaScript ------------>
-// <!-- ---------------------------------------- -->
-// <!--------- Video 21 - Objeto Película --------->
+//<--================================-->
+//<--------- CodiGo - Tecsup ---------->
+//<----- Desarrollo Web FullStack ----->
+//<------ FrontEnd - JavaScript ------->
+//<----- Video 21 - Objeto Covid ------>
 //===================================================================================
-// Ejercicio -> Función para recibir el nombre de un país introducido por el usario y mostrar:
-//           -> total de casos
-//           -> total de recuperados
-//           -> total de fallecidos 😥
+// >> Ejercicio.
+//    Función para recibir el nombre de un país introducido por el usario y mostrar:
+//    -> total de casos
+//    -> total de recuperados
+//    -> total de fallecidos 😥
 
 const mostrarDataPorPais = (pais) => {
     for (let c = 0; c < covid.length; c++) {

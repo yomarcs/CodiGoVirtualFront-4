@@ -1,20 +1,19 @@
+<!----- Desarrollo Web FullStack ------>
+<!--------- CodiGo - Tecsup ----------->
+<!------ FrontEnd - JavaScript -------->
+<!------------------------------------->
+<!------------- Video 24 -------------->
+<!-------------- Eventos -------------->
+<!--================================--->
+
 <!DOCTYPE html>
-<html lang="ees-PE">
-<!--- CodiGo Tecsup - Desarrolo Web FullStack -->
-<!----------- FrontEnd - JavaScript ------------>
-<!-- ---------------------------------------- -->
-<!--------------- Video 24 --------------------->
-<!-- ======================================== -->
+<html lang="es-PE">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body {
-            background-color: #444;
-        }
-        
         form {
             background-color: white;
             border: 1px solid #ccc;
@@ -38,27 +37,38 @@
         .borde-rojo {
             border: 3px solid #dc143c;
         }
+        
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 100px;
+        }
+        
+        #idApellido {
+            padding-bottom: 0px;
+            background-color: red;
+        }
     </style>
 </head>
 
 <body>
     <form id="formulario">
-        <label for="">Nombre:</label>
-        <input type="text" placeholder="Ingrese nombre" id="inputNombre" required />
+        <label for="inputNombre">Nombre:</label>
+        <input type="text" placeholder="Ingrese nombre" id="inputNombre" />
 
-        <label for="">Apellido</label>
-        <input type="text" placeholder="Ingrese apellido" id="inputApellido" required />
-
-        <a href="https://www.google.com" id="link"> ¿Olvidaste tu contraseña? </a>
-        <br />
+        <label for="inputApellido">Apellido</label>
+        <input type="text" placeholder="Ingrese apellido" id="inputApellido" />
         <small class="texto-rojo" id="helper" hidden>Todos los campos deben estar llenos</small>
+        <br />
+        <a href="https://www.google.com" id="link"> ¿Olvidaste tu contraseña? </a>
         <hr />
         <!-- un formulario sólo debe tener 1 submit -->
         <button type="submit">Crear Usuario</button>
         <button type="button">Cancelar</button>
     </form>
+    <hr>
     <section>
-        <table border="1">
+        <table class="table" border="1">
             <thead>
                 <tr>
                     <th>Nro</th>

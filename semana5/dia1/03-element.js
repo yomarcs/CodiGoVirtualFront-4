@@ -28,9 +28,11 @@ const altoSeccion1 = seccion1.offsetHeight;
 console.log(`Ancho de seccion1: ${anchoSeccion1}px`);
 console.log(`Alto de seccion1: ${altoSeccion1}px`);
 
-// >> elemento.innerHTML -> settea o retorna el contenido HTML de un elemento
-//                       -> es decir, si colocamos etiquetas, éstas serán renderizadas
-// >> elemento.innerText -> settea o retorna el contenido a nivel de texto de un elemento.
+// >> elemento.innerHTML 
+//    -> settea o retorna el contenido HTML de un elemento
+//    -> es decir, si colocamos etiquetas, éstas serán renderizadas
+// >> elemento.innerText
+//    -> settea o retorna el contenido a nivel de texto de un elemento.
 const parrafo = document.getElementById("parrafo");
 console.log("Contenido HTML del parrafo");
 console.log(parrafo.innerHTML);
