@@ -1,8 +1,14 @@
-/**
- * Destructuración de Arreglos
- * Una manera directa de obtener acceso a las posiciones y
- * elementos de los arreglos
- */
+//<----- Desarrollo Web FullStack ----->
+//<--------- CodiGo - Tecsup ---------->
+//<------ FrontEnd - JavaScript ------->
+//<------------------------------------>
+//<-------- Video 32 - 01:35 ---------->
+//<---------- destructuración --------->
+//<--==========================================-->
+// >> Destructuración de Arreglos
+//    Una manera directa de obtener acceso a las
+//    posiciones y elementos de los arreglos
+//<--==========================================-->
 
 let nombres = ["Jorgito", "Carmencita", "Pepito", "Carlita", "Luisito"];
 

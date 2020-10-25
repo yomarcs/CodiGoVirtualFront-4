@@ -1,6 +1,10 @@
-/**
- * Destructuración de Objetos
- */
+//<----- Desarrollo Web FullStack ----->
+//<--------- CodiGo - Tecsup ---------->
+//<------ FrontEnd - JavaScript ------->
+//<------------------------------------>
+//<-------- Video 32 - 02:04 ---------->
+//<---- destructuración de objetos ---->
+//<--================================-->
 
 let mascota = {
     nombre: "Kyra",
@@ -8,18 +12,19 @@ let mascota = {
     edad: 1,
 };
 
-// obligatorio colocar el mismo nombre de la propiedad a la
-// variable que destructura
+// obligatorio colocar el mismo nombre de la 
+// propiedad a la variable que destructura
 let { edad, nombre } = mascota;
 
 console.log(nombre);
 console.log(edad);
 
-// destructurar un atributo modificando el nombre de la nueva
-// variable
+// destructurar un atributo modificando 
+// el nombre de la nueva variable
 
 let { raza: familia } = mascota;
-// console.log(raza); // error, no existe la variable raza, sólo "familia"
+// console.log(raza); // error, no existe
+// la variable raza, sólo "familia"
 console.log(familia);
 
 // EJEMPLO
@@ -48,18 +53,19 @@ let pelicula = {
 };
 
 const imprimirSinopsis = ({ overview, title }) => {
-    // la función recibe el "overview" destructurado del
-    // objet de tipo pelicula
+    // la función recibe el "overview" destructurado
+    // del objeto de tipo pelicula
     // VENTAJA: uso directamente la variable "overview"
-    // DESVENTAJA: pierdo el acceso a los demás atributos
+    // DESVENTAJA: pierdo el acceso a los demás atributos.
     console.log(overview);
     console.log(title);
 };
 
 imprimirSinopsis(pelicula);
 
-// ejemplo. 
-// destrucutrar pais y la longitud con una nueva variable de nombre nuevaLongitud.
+// >> Ejemplo. 
+//    destrucutrar pais y la longitud con una nueva
+//    variable de nombre nuevaLongitud.
 let { pais: { lng: nuevaLongitud } } = pelicula;
 console.log(`Longitud`);
 console.log(nuevaLongitud);

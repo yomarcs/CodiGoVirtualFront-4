@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "./components/Header";
+import "./App.css";
 import Articulos from "./components/Articulos";
-import "./App.css"
+// import logo from './logo.svg';
+import Header from "./components/Header";
 
 const App = () => {
   const titulo = "Mi primer curso de React";
@@ -11,7 +12,7 @@ const App = () => {
     { id: 33, titulo: "Aprende Babel en 10 minutos" },
     { id: 842, titulo: "¿Qué significa DevOps?" },
   ];
-  
+
   return (
     <>
       <Header />
@@ -20,11 +21,9 @@ const App = () => {
         <hr />
         <h2>Próximos cursos:</h2>
         <ul>
-          {
-            proximosCursos.map((c, i) => (
-              <li key={i+c}>{c}</li>
-            ))
-          }
+          {proximosCursos.map((c, i) => (
+            <li key={i + c}>{c}</li>
+          ))}
         </ul>
         <hr />
         <Articulos blog={articulos} />
