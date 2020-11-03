@@ -10,7 +10,7 @@ body {
 
 .seccion1 {
     /* blur es un desenfoque que admite valores entre 1px - 10 px */
-    /* filter: blur(1px); */
+    filter: blur(1px);
 }
 
 

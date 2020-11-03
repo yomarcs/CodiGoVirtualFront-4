@@ -1,0 +1,55 @@
+footer{
+    background-color: #25262D;
+    color: #FFFFFF;
+       
+}
+
+a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+.altura-200{
+height: 200px;
+}
+
+h6{
+    color: #868E96;
+}
+
+.display-5{
+    font-size: 1.5rem;
+}
+
+.primary{
+    color: rgb(35, 224, 35);
+    
+}
+
+img{
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.codigo{
+    height: 40px;
+    filter: brightness(2);
+}
+
+.tecsup{
+    height: 40px;
+    filter: brightness(2);
+}
+
+.copyright{
+    text-align: center;
+}
+

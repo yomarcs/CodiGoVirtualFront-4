@@ -4,62 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Bodegón</title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="./index.css">
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- css flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+    <!-- css fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- my own css -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header>
 
+<header>
+    <div class="logo__oculto"><a href="./index.html" id="logo"><img class="logo" src="./img/logo.jpeg" alt="Logo El Bodegón" height="60px"></a></div>
+    <section class="header__section-logo">
         <div class="header__logo">
-            <a href="./index.html"><img src="./img/logo.jpeg" alt="Logo El Bodegón" height="70px"></a>
+            <a href="./index.html"><img class="logo" src="./img/logo.jpeg" alt="Logo El Bodegón" height="60px"></a>
         </div>
-
-        <nav class="navbar navbar-expand-sm navbar-white bg-white">
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-md-4" type="text" placeholder="Buscar">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        
-    </header>
-
-    <main>
-        <nav class="nav">
-            <ul class="nav__categorias">
-                <litem"><a href="#" class="nav__link">Hogar</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Bebés y niños</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Tecnología</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Electrodomésticos</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Deportes</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Moda</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Panaderia</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Licores</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Limpieza</a></li>
+        <!-- <form class="header__form" action="">
+            <input type="text">
+        </form> -->
+    </section>
+    <section class="section__nav">
+        <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+        <input type="checkbox" id="toggle-1">
+        <nav>
+            <ul>
+                <li><a href="#" class="nav__link">Electro</a></li>
+                <li><a href="#" class="nav__link">Tecnología</a></li>
+                <li><a href="#" class="nav__link">Hogar</a></li>
+                <li><a href="#" class="nav__link">Infantes</a></li>
+                <li><a href="#" class="nav__link">Deportes</a></li>
+                <li><a href="#" class="nav__link">Moda</a></li>
+                <li><a href="#" class="nav__link">Panaderia</a></li>
+                <li><a href="#" class="nav__link">Electro</a></li>
+                <li><a href="#" class="nav__link">Licores</a></li>
+                <li><a href="#" class="nav__link">Limpieza</a></li>
             </ul>
         </nav>
-    </main>
-         
+    </section>
+<header>
 
+<main>
+    <div class="container-fluid">
+        <section class="row">
+            <div class="col-12">
+                <div class="main-carousel">
+                    <div class="carousel-cell"><img src="https://placeholder.com/150" alt=""></div>
+                    <div class="carousel-cell"><img src="https://placeholder.com/150" alt=""></div>
+                    <div class="carousel-cell"><img src="https://placeholder.com/150" alt=""></div>
+                    </div>
+            </div>
+        </section>
+    </div>
+</main>
 
+<footer>
+    <section class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col-md-2 col-sm-6 mt-4">
+                <h5 class="primary">ACERCA DE</h5>
+                <ul>
+                    <li><a href="#"><i class="fa fa-users mt-2 mr-2 primary" aria-hidden="true"></i>Nosotros</a></li>
+                    <li><a href="#"><i class="fa fa-balance-scale mt-2 mr-2 primary" aria-hidden="true"></i>Responsabilidad Social</a></li>
+                    <li><a href="#"><i class="fas fa-handshake mt-2 mr-2 primary"></i>Trabaja con Nosotros</a></li>
+                    <li><a href="#"><i class="fas fa-head-side-mask mt-2 mr-2 primary"></i>Prevención COVID-19</a></li>
+                    <li><a href="#"><i class="fas fa-globe-americas mt-2 mr-2 primary"></i>Pasión por el planeta</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 mt-4">
+                <h5 class="primary">COMPRA EN</h5>
+                <ul>
+                    <li><a href="#"><i class="fas fa-store mt-2 mr-2 primary"></i>¿Cómo Comprar?</a></li>
+                    <li><a href="#"><i class="fas fa-money-bill-wave mt-2 mr-2 primary"></i>Formas de Pago</a></li>
+                    <li><a href="#"><i class="fa fa-question mt-2 mr-2 primary" aria-hidden="true"></i>Preguntas Frecuentes</a></li>
+                    <li><a href="#"><i class="fa fa-comments mt-2 mr-2 primary" aria-hidden="true"></i>Servicio al Cliente</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 mt-4">
+                <h5 class="primary">POLÍTICAS</h5>
+                <ul>
+                    <li><a href="#"><i class="fa fa-check mt-2 mr-2 primary" aria-hidden="true"></i>Terminos y Condiciones</a></li>
+                    <li><a href="#"><i class="fa fa-lock mt-2 mr-2 primary" aria-hidden="true"></i>Uso de Datos Personales</a></li>
+                    <li><a href="#"><i class="fas fa-check-double mt-2 mr-2 primary"></i>Condiciones de Ofertas</a></li>
+                    <li><a href="#"><i class="fa fa-book-open mt-2 mr-2 primary" aria-hidden="true"></i>Libro de Reclamaciones</a></li>
+                    
+                                            
+                </ul> 
+            </div>
+            <div class="col-md-2 col-sm-6 mt-4">
+                <h5 class="primary">Call Center</h5>
+                <ul>
+                    <li class="display-5"><i class="fas fa-headset display primary"></i> 555 - 5555</li>
+                </ul>
+                <h5 class="primary">Whatsapp</h5>
+                <ul>
+                    <li class="display-5"><a href="http://wa.me/987654321"><i class="fab fa-whatsapp primary" aria-hidden="true"></i> 987 - 654321</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="row justify-content-center">
+            <div class="row">
+                <span class="col-xs-5 mr-4"><img src="./img/static/tarjeta-mastercard .png" height="50px" alt="mastercard"></span></span>
+                <span class="col-xs-5 mr-4"><img src="./img/static/american-express.png" height="50px" alt="american-express"></span>
+                <span class="col-xs-5 mr-4"><img src="./img/static/club-de-cenas.png" height="50px" alt="dinners-club"></span>
+                <span class="col-xs-5 mr-4"><img src="./img/static/visa.png" height="50px" alt="visa"></span>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <p>Siguenos en:</p>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/gorjeo.png" height="40px" alt="mastercard"></a>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/facebook.png" height="40px" alt="american-express"></a>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/youtube.png" height="40px" alt="dinners-club"></a>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/instagram.png" height="40px" alt="visa"></a>
+            </div>
+            <div class=" desarrollo col-6 text-right">
+                <p class="mr-4 desarrollo">Desarrollate:</p>
+                <a href="https://codigo.edu.pe" target="blank" class="col-xs-5"><img class="codigo mr-4" src="./img/static/logoCodigo.png" alt="mastercard"></a>
+                <a href="https://www.tecsup.edu.pe/" target="blank" class="col-xs-5"><img class="tecsup mr-2" src="./img/static/logo-tecsup.png" alt="mastercard"></a>
+            </div>
+        </div> 
+        <hr class="bg-light">
+        <div class="row justify-content-center">
+            
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <p><img src="./img/static/copyright.png" class="mr-2" height="30px" alt="copyright">2020 - YomarCs. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</footer>
+
+<!-- JS bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- JS flickity -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- My own JavaScript -->
+<script src="./data-peliculas.js"></script>
+<script src="./index.js"></script>
+
 </body>
 </html>
+                
+                    
+
+        
