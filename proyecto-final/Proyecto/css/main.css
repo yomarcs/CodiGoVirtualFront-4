@@ -1,13 +1,20 @@
+@import url(./carousel.css);
+
 main{
-    border: 1px red solid;
-    }
-    
-    /* .carousel-cell {
-        width: 25%;
-        text-align: center;
-        margin-right: 1rem;
-    } */
-    
-    /* .img-modal {
-        max-width: 100%;
-    } */
+    padding: 0px;
+    margin: 0px;
+    display: table;
+    width: 100%;
+}
+
+.texto-ofertas{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin: auto 0px;
+    padding: 1.5rem 0px;
+}
+.ofertas{
+    font-weight: bold;
+    color: rgb(12,129,12);
+}

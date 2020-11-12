@@ -4,6 +4,10 @@ footer{
        
 }
 
+.mt{
+    margin-top: 35px;
+}
+
 a{
     color: #ccc;
     text-decoration: none;
@@ -53,3 +57,21 @@ img{
     text-align: center;
 }
 
+@media only screen and (max-width: 1483px) {
+    a{
+        font-size: 0.9rem;
+    }   
+    .display-5{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    a{
+        font-size: 0.8rem;
+    } 
+   
+    .display-5{
+        font-size: 0.8rem;
+    }  
+}

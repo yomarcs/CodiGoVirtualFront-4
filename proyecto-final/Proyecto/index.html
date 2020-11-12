@@ -2,8 +2,10 @@
 <html lang="es-PE">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Bodegón</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>El Bodegón - Lo máximo a precio mínimo!</title>
+    <!-- icono logo -->
+    <link rel="shortcut icon" href="./img/static/apple.png"/>
     <!-- css bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- css flickity -->
@@ -14,56 +16,389 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+<div class="wrapper">
 <body>
 
 <header>
-    <div class="logo__oculto"><a href="./index.html" id="logo"><img class="logo" src="./img/logo.jpeg" alt="Logo El Bodegón" height="60px"></a></div>
-    <section class="header__section-logo">
-        <div class="header__logo">
-            <a href="./index.html"><img class="logo" src="./img/logo.jpeg" alt="Logo El Bodegón" height="60px"></a>
+
+    <section class="header__encabezado">
+        <div class="div__logo">
+            <a href="./index.html"><img class="div__logo__logo" src="./img/logo.jpeg" alt="Logo El Bodegón" height="60px"></a>
         </div>
-        <!-- <form class="header__form" action="">
-            <input type="text">
-        </form> -->
+        <nav class="nav__encabezado">
+            <input class="encabezado__input" type="text" placeholder="¿Qué estas buscando?">
+            <button class="encabezado__button"><i class="encabezado__i fa fa-search" aria-hidden="true"></i></button>
+            <a class="encabezado__a" href="#"><i class="encabezado__i fas fa-shopping-cart mr-2"></i>Mi Carrito</a>
+            <a class="encabezado__a" href="#"><i class="encabezado__i fa fa-user mr-2" aria-hidden="true"></i>Iniciar Sesión</a>
+            <a class="encabezado__a" href="#"><i class="encabezado__i fa fa-user-plus mr-2"></i>Registrate</a>            
+        </nav>
     </section>
-    <section class="section__nav">
+
+    <section class="header__covert">
         <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
         <input type="checkbox" id="toggle-1">
-        <nav>
-            <ul>
-                <li><a href="#" class="nav__link">Electro</a></li>
-                <li><a href="#" class="nav__link">Tecnología</a></li>
-                <li><a href="#" class="nav__link">Hogar</a></li>
-                <li><a href="#" class="nav__link">Infantes</a></li>
-                <li><a href="#" class="nav__link">Deportes</a></li>
-                <li><a href="#" class="nav__link">Moda</a></li>
-                <li><a href="#" class="nav__link">Panaderia</a></li>
-                <li><a href="#" class="nav__link">Electro</a></li>
-                <li><a href="#" class="nav__link">Licores</a></li>
-                <li><a href="#" class="nav__link">Limpieza</a></li>
+        <div class="logo__oculto">
+        <a class="covert__logo" href="./index.html" id="covert__logo"><img class="covert__img" src="./img/logo.jpeg" alt="Logo El Bodegón"></a>
+        <a class="covert__a" href="#"><i class="icono fas fa-shopping-cart mr-2"></i></a>
+        <a class="covert__a" href="#"><i class="icono fa fa-user mr-2" aria-hidden="true"></i></a>
+        <a class="covert__a" class="link_registrate" href="#"><i class=" icono_registrate fa fa-user-plus mr-2"></i></a>
+        </div>
+        <div class="covert__buscador">
+            <input class=" covert__input" type="text" placeholder="¿Qué estas buscando?">
+            <button class="covert__button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <nav class="navigator">
+            <ul class="navigator__ul">
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Electrohogar</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Tecnología</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Hogar y Bazar</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Infantes</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Deportes</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Moda</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Panaderia</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Carnes</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Licores</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Limpieza</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Navidad</a></li>
             </ul>
         </nav>
     </section>
+
 <header>
 
 <main>
-    <div class="container-fluid">
-        <section class="row">
-            <div class="col-12">
-                <div class="main-carousel">
-                    <div class="carousel-cell"><img src="https://placeholder.com/150" alt=""></div>
-                    <div class="carousel-cell"><img src="https://placeholder.com/150" alt=""></div>
-                    <div class="carousel-cell"><img src="https://placeholder.com/150" alt=""></div>
+
+    <section class="main_section-carousel bg-dark">
+        <div class="container-fluid">
+            <div class="row-12">
+                <div id="carouselId" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselId" data-slide-to="1"></li>
+                        <li data-target="#carouselId" data-slide-to="2"></li>
+                        <li data-target="#carouselId" data-slide-to="3"></li>
+                        <li data-target="#carouselId" data-slide-to="4"></li>
+                        <li data-target="#carouselId" data-slide-to="5"></li>
+                        <li data-target="#carouselId" data-slide-to="6"></li>
+                        <li data-target="#carouselId" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/ROTADOR-VIVANDA-D-09-15-PANETONES.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item active">
+                            <a href="#"><img src="./img/banners/banner-D-bicicleta-10.webp" class="img-fluid" width="1800px" alt="First slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-D-decoracion-24al30-A.webp" class="img-fluid" width="1800px" alt="Second slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-D-decoracion-10.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-D-electro-24al30-A.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-vivanda-D-CERVEZA-ARTESANAL-30.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-vivanda-D-CERVEZA-PILSEN-30.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-vivanda-D-GIN-30.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-vivanda-D-PISCO-VODKA-30.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/banner-vivanda-D-piqueo-30.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="./img/banners/ROTADOR-VIVANDA-D-09-15-BIFE.webp" class="img-fluid" width="1800px" alt="Third slide"></a>
+                        </div>
+                        
+                        
                     </div>
+                    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
-        </section>
-    </div>
+        </div>   
+    </section>
+
+    <p class="texto-ofertas">DESCUBRE LA MEJOR CALIDAD - TE RECOMENDAS NUESTRAS <span class="ofertas">OFERTAS</span></p>
+
+    <section class="section_carousel">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-carousel" id="miCarrusel"> 
+                        <div class="carousel-cell">
+                            <div class="card shadow">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/blackline.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/cafetera.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/hervidor.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/sanguchera.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/tostador.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/aparato.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/hervidor.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+                            <div class="card">
+                                <div class="card__header">
+                                    <figure class="figure">
+                                    <img class="card__img" src="./img/electro/microondas.PNG" alt="">
+                                </figure>
+                                </div>
+                                <div class="card__body ">
+                                    <hr class="hr">
+                                    <h3 class="card__title">BLACKLINE</h3>
+                                    <p class="card__description">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="delivery__express"><button class="delivery__button"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+                                    <div class="montos">
+                                        <p class="precio__normal">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                                        <p class="importe">Importe:</p>
+                                        <p class="precio__promocion">Precio:</p>
+                                        <span class="span__importe">S/ 00  .00 </span>
+                                        <span class="span__promocion">S/ 00.00 </span>
+                                    </div>
+                                    <p class="unidad">Und.</p>
+                                    <div class="cantidad_producto">
+                                        <button class="button__decremento">-</button>
+                                        <input class="input__cantidad" type="text">
+                                        <button class="button__incremento">+</button>
+                                    </div>
+                                    <div class="agregar__producto"><button class="button__agregar">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer>
     <section class="container-fluid">
-        <div class="row justify-content-around">
-            <div class="col-md-2 col-sm-6 mt-4">
+        <div class="row justify-content-around mt">
+            <div class="col-md-2 col-sm-6 mt">
                 <h5 class="primary">ACERCA DE</h5>
                 <ul>
                     <li><a href="#"><i class="fa fa-users mt-2 mr-2 primary" aria-hidden="true"></i>Nosotros</a></li>
@@ -73,7 +408,7 @@
                     <li><a href="#"><i class="fas fa-globe-americas mt-2 mr-2 primary"></i>Pasión por el planeta</a></li>
                 </ul>
             </div>
-            <div class="col-md-2 col-sm-6 mt-4">
+            <div class="col-md-2 col-sm-6 mt">
                 <h5 class="primary">COMPRA EN</h5>
                 <ul>
                     <li><a href="#"><i class="fas fa-store mt-2 mr-2 primary"></i>¿Cómo Comprar?</a></li>
@@ -82,7 +417,7 @@
                     <li><a href="#"><i class="fa fa-comments mt-2 mr-2 primary" aria-hidden="true"></i>Servicio al Cliente</a></li>
                 </ul>
             </div>
-            <div class="col-md-2 col-sm-6 mt-4">
+            <div class="col-md-2 col-sm-6 mt">
                 <h5 class="primary">POLÍTICAS</h5>
                 <ul>
                     <li><a href="#"><i class="fa fa-check mt-2 mr-2 primary" aria-hidden="true"></i>Terminos y Condiciones</a></li>
@@ -93,7 +428,7 @@
                                             
                 </ul> 
             </div>
-            <div class="col-md-2 col-sm-6 mt-4">
+            <div class="col-md-2 col-sm-6 mt">
                 <h5 class="primary">Call Center</h5>
                 <ul>
                     <li class="display-5"><i class="fas fa-headset display primary"></i> 555 - 5555</li>
@@ -114,14 +449,14 @@
         </div>
         <div class="row justify-content-between">
             <div class="col-6">
-                <p>Siguenos en:</p>
+                <p>Siguenos:</p>
                 <a href="#" class="col-xs-5 mr-4"><img src="./img/static/gorjeo.png" height="40px" alt="mastercard"></a>
                 <a href="#" class="col-xs-5 mr-4"><img src="./img/static/facebook.png" height="40px" alt="american-express"></a>
                 <a href="#" class="col-xs-5 mr-4"><img src="./img/static/youtube.png" height="40px" alt="dinners-club"></a>
                 <a href="#" class="col-xs-5 mr-4"><img src="./img/static/instagram.png" height="40px" alt="visa"></a>
             </div>
             <div class=" desarrollo col-6 text-right">
-                <p class="mr-4 desarrollo">Desarrollate:</p>
+                <p class="mr-4 desarrollo">Impulsate:</p>
                 <a href="https://codigo.edu.pe" target="blank" class="col-xs-5"><img class="codigo mr-4" src="./img/static/logoCodigo.png" alt="mastercard"></a>
                 <a href="https://www.tecsup.edu.pe/" target="blank" class="col-xs-5"><img class="tecsup mr-2" src="./img/static/logo-tecsup.png" alt="mastercard"></a>
             </div>
@@ -146,12 +481,11 @@
 <!-- JS flickity -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <!-- My own JavaScript -->
-<script src="./data-peliculas.js"></script>
-<script src="./index.js"></script>
+<script src="./js/data-peliculas.js"></script>
+<script src="./js/Carousel.js"></script>
 
 </body>
+</div>
 </html>
-                
-                    
 
-        
+
