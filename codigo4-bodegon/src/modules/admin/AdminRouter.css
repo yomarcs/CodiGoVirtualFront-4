@@ -1,0 +1,15 @@
+.altura{
+    min-height: calc(100vh - 56px);
+    /* display: none; */
+    z-index: -2;
+}
+
+/* .dropdown-item,
+.dropdown-menu{
+    z-index: 9999;
+}
+
+.container-fluid{
+    z-index: -1;
+} */
+

@@ -1,0 +1,126 @@
+
+.navigator{
+  background-color: rgb(12,129,12);
+  height: 3.75rem;
+  width: auto;
+}
+
+.navigator__ul{
+  float: left;
+  /* margin-top: 1.1rem; */
+  display: table;
+}
+
+.navigator__ul__li {
+  float: left;
+  list-style: none;
+}
+
+.navigator__ul__li__a{
+  position: relative;
+  color:white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 3px 28px;
+  margin-top: 15px;
+  display: inline-block;
+  transition: all 0.5s ease 0s;
+}
+
+.navigator__ul__li__a:hover, 
+.navigator__ul__li__a:focus {
+  color: white;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navigator__ul__li__a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  bottom: 0;
+  left: 0;
+  background-color:white;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: 0.3s;
+}
+
+.navigator__ul__li__a:hover:before,
+.navigator__ul__li__a:focus:before {
+  visibility: visible;
+  transform: scaleX(0.7);
+}
+
+@media only screen and (max-width: 1260px) {
+  
+  .navigator__ul__li__a{
+    /* font-size: 1.1rem; */
+    padding: 5px 10px;
+    /* margin-top: 12px; */
+}
+}
+
+@media only screen and (max-width: 1100px){
+
+  .navigator {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 55px;
+    /* background-color: none; */
+    padding: 0px;
+    z-index: 99;
+  }
+
+  .navigator__ul{
+    width: auto;
+    background: #333;
+    /* opacity: 0.9; */
+    
+  }
+
+  .navigator__ul__li{
+    float: none;
+      padding: 0.2rem 0px;
+      width: 100%;
+      display: table;
+      border-bottom: 1px solid #252525;
+      margin-top: 0px;
+      width: 180px;
+      padding-bottom: 15px;
+      line-height: 15px;
+      opacity: 0.9;
+         
+  }
+
+  .navigator__ul__li__a{
+    color:  rgb(35, 224, 35);
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+}
+
+/* .navigator__ul:hover{
+  opacity: 0.7;
+} */
+
+/* .navigator__ul__li:hover{
+    background: #eee;
+    /* opacity: 0.1;
+} */
+
+.navigator__ul__li:hover > a{
+  color: white;
+  /* font-weight: bold; */
+}
+
+.navigator__ul__li__a:hover:before,
+.navigator__ul__li__a:focus:before {
+    visibility: hidden;
+   }
+
+
+
+}

@@ -1,4 +1,4 @@
-import { getRazas } from "./services/raza-service.js"
+import { getRazas } from "./services/raza-service.js";
 
 const selectRaza = document.getElementById("selectRaza");
 
