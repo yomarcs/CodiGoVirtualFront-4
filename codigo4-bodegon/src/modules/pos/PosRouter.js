@@ -3,13 +3,16 @@ import { Route, Switch } from 'react-router-dom'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Home from './screens/home/Home'
+import Producto from './screens/producto/Producto'
+
 
 const PosRouter = () => {
     return (
       <>  
         <Header/>
           <Switch>
-            <Route path={'/'} exact component={Home}/> 
+            <Route path={"/producto"} component={Producto} />
+            <Route path={"/"} exact component={Home}/> 
           </Switch>
         <Footer />
       </>

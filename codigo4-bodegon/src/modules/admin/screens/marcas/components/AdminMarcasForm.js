@@ -9,7 +9,7 @@ const AdminMarcasForm = () => {
                     <div className="card-body">
                         <form className="row" id="form-marcas">
                             <div className="form-group col-12">
-                                <label for="">Nombre de Marca:</label>
+                                <label htmlFor="">Nombre de Marca:</label>
                                 <input type="text" className="form-control" placeholder="Ingrese Marca Nueva" id="inputNombre" />
                             </div>
                             <div className="form-group col-12">

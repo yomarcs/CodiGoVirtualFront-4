@@ -10,7 +10,7 @@ const AdminTiposForm = () => {
                     <div className="card-body">
                         <form className="row" id="form-tipos">
                             <div className="form-group col-12">
-                                <label for="">Nombre de Tipo:</label>
+                                <label htmlFor="">Nombre de Tipo:</label>
                                 <input type="text" className="form-control" placeholder="Ingrese Tipo Nuevo" id="inputNombre" />
                             </div>
                             <div className="form-group col-12">

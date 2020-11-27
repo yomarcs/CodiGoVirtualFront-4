@@ -4,8 +4,8 @@ import Navigator from './Navigator'
 
 const HeadlineCovert = () => {
     return (
-        <section classNameName="header__covert">
-            <label for="toggle-1" className="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+        <section className="header__covert">
+            <label htmlFor="toggle-1" className="toggle-menu label-toggle"><ul><li></li> <li></li> <li></li></ul></label>
             <input type="checkbox" id="toggle-1"/>
             <div className="logo__oculto">
                 <a className="covert__logo" href="!#" id="covert__logo"><img className="covert__img" src={logo} alt="Logo El Bodegón"/></a>

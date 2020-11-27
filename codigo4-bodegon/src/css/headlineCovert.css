@@ -17,7 +17,7 @@
   }
 
   input[type="checkbox"],
-  label {
+  .label-toggle { 
     display: none;
   }
 
@@ -46,7 +46,7 @@ input[type="checkbox"]:focus {
     background: none;
   }
 
-label {
+.label-toggle {
     float: left;
     padding: 1.5rem 0 0 1.5rem;
     display: inline-block;
@@ -62,14 +62,14 @@ input[type="checkbox"]:checked ~ nav {
   color: green;
 }
 
-.header__covert{
+/* .header__covert{
     background-color: white;
     width: 100%;
     display: table;
     position: relative;
     margin: 0px auto;
     padding: 0px;
-}
+} */
 
 .logo__oculto{
   text-align: center;
@@ -176,7 +176,7 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 @media only screen and (max-width: 430px){
-  label {
+  .label-toggle {
     padding: 1.5rem 0 0 0.5rem;
 }
 .covert__a{
