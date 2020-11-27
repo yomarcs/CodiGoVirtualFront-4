@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -16,8 +16,8 @@ button {
   padding: 10px 30px;
   font-weight: bold;
   font-size: 20px;
+  background-color: #425053;
   color: white;
-  background: #425053;
 }
 
 nav {
@@ -59,7 +59,7 @@ nav ul li a:hover {
 }
 
 .hero {
-  height: 500px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +78,7 @@ nav ul li a:hover {
 
 .hero h2 {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 45px;
   color: white;
 }
 

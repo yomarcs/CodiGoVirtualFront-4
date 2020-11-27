@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react'
 import Cargando from './Cargando';
 
 const Pokemon = ({ pokemon: { name, url } }) => {
@@ -19,7 +19,7 @@ const Pokemon = ({ pokemon: { name, url } }) => {
       setHp(data.stats[0].base_stat);
       setAtaque(data.stats[1].base_stat);
       setDefensa(data.stats[2].base_stat);
-    }, 1000);
+    }, 500);
 
     setCargando(false);
   }
@@ -34,8 +34,8 @@ const Pokemon = ({ pokemon: { name, url } }) => {
       <div className="row">
         <div className="col-md-6 p-5">
           <div className="card border-0 shadow">
-            <div className="altura shadow">{pokemonData.height / 10} m</div>
-            <div className="peso shadow">{pokemonData.weight / 10} kg</div>
+            <div className="altura shadow">{pokemonData.height}m</div>
+            <div className="peso shadow">{pokemonData.weight}kg</div>
             <div className="card-body text-center">
               <figure>
                 <img

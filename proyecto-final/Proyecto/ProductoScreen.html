@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>El Bodegón - Lo máximo a precio mínimo!</title>
+    <!-- icono logo -->
+    <link rel="shortcut icon" href="./img/static/apple.png"/>
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- css flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+    <!-- css fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+    <!-- my own css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<div class="wrapper">
+<body>
+
+<header>
+
+    <section class="header__encabezado">
+        <div class="div__logo">
+            <a href="./index.html"><img class="div__logo__logo" src="./img/logo.jpeg" alt="Logo El Bodegón" height="60px"></a>
+        </div>
+        <nav class="nav__encabezado">
+            <input class="encabezado__input" type="text" placeholder="¿Qué estas buscando?">
+            <button class="encabezado__button"><i class="encabezado__i fa fa-search" aria-hidden="true"></i></button>
+            <a class="encabezado__a" href="#"><i class="encabezado__i fas fa-shopping-cart mr-2"></i>Mi Carrito</a>
+            <a class="encabezado__a" href="#"><i class="encabezado__i fa fa-user mr-2" aria-hidden="true"></i>Iniciar Sesión</a>
+            <a class="encabezado__a" href="#"><i class="encabezado__i fa fa-user-plus mr-2"></i>Registrate</a>            
+        </nav>
+    </section>
+
+    <section class="header__covert">
+        <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+        <input type="checkbox" id="toggle-1">
+        <div class="logo__oculto">
+        <a class="covert__logo" href="./index.html" id="covert__logo"><img class="covert__img" src="./img/logo.jpeg" alt="Logo El Bodegón"></a>
+        <a class="covert__a" href="#"><i class="icono fas fa-shopping-cart mr-2"></i></a>
+        <a class="covert__a" href="#"><i class="icono fa fa-user mr-2" aria-hidden="true"></i></a>
+        <a class="covert__a" class="link_registrate" href="#"><i class=" icono_registrate fa fa-user-plus mr-2"></i></a>
+        </div>
+        <div class="covert__buscador">
+            <input class=" covert__input" type="text" placeholder="¿Qué estas buscando?">
+            <button class="covert__button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <nav class="navigator">
+            <ul class="navigator__ul">
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Electrohogar</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Tecnología</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Hogar y Bazar</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Infantes</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Deportes</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Moda</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Panaderia</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Carnes</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Licores</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Limpieza</a></li>
+                <li class="navigator__ul__li"><a href="#" class="navigator__ul__li__a">Navidad</a></li>
+            </ul>
+        </nav>
+    </section>
+
+<header>
+
+<main>
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col-md-5 mt-4 ml-5">
+                <div class="card__body-producto"></div>
+                    <h3 class="card__title-producto">BLACKLINE</h3>
+                    <p class="card__description-producto">Extractor BLACKLINE HBI-1692D Inox-Negro</p>
+                <div class="card__producto-zoom">
+                    <figure class="figure-producto">
+                        <img id="electrodomestico" width="500px" src="./img/electro/licuadora-peque.jpg"  alt="Electrodomestico" data-big="./img/electro/licuadora-grande.png"/>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card__footer-producto">
+                    <div class="montos-producto">
+                        <p class="precio__normal-producto">Precio normal: <span class="span__precionormal">S/ 399.00</span></p>
+                        <p class="importe-producto">Importe:</p>
+                        <p class="precio__promocion-producto">Precio:</p>
+                        <span class="span__importe-producto">S/ 5454.00 </span>
+                        <span class="span__promocion-producto">S/ 1250.00 </span>
+                    </div>
+                    <p class="unidad-producto">Und.</p>
+                    <div class="cantidad_producto-producto">
+                        <button class="button__decremento-producto" >-</button>
+                        <div class="input__cantidad-producto"> 0 </div>
+                        <button class="button__incremento-producto">+</button>
+                    </div>
+                    <div class="agregar__producto-producto"><button class="button__agregar-producto">AGREGAR<i class="fa fa-shopping-cart" aria-hidden="true"></i></button></div>
+                </div>
+                <div class="delivery__express-producto"><button class="delivery__button-producto"><i class="fas fa-check mr-2" aria-hidden="true"></i>Delivery Express</button></div>
+            </div>
+        </div>
+   </div>           
+</main>
+
+<footer>
+    <section class="container-fluid">
+        <div class="row justify-content-around mt">
+            <div class="col-md-2 col-sm-6 mt">
+                <h5 class="primary">ACERCA DE</h5>
+                <ul>
+                    <li><a href="#"><i class="fa fa-users mt-2 mr-2 primary" aria-hidden="true"></i>Nosotros</a></li>
+                    <li><a href="#"><i class="fa fa-balance-scale mt-2 mr-2 primary" aria-hidden="true"></i>Responsabilidad Social</a></li>
+                    <li><a href="#"><i class="fas fa-handshake mt-2 mr-2 primary"></i>Trabaja con Nosotros</a></li>
+                    <li><a href="#"><i class="fas fa-head-side-mask mt-2 mr-2 primary"></i>Prevención COVID-19</a></li>
+                    <li><a href="#"><i class="fas fa-globe-americas mt-2 mr-2 primary"></i>Pasión por el planeta</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 mt">
+                <h5 class="primary">COMPRA EN</h5>
+                <ul>
+                    <li><a href="#"><i class="fas fa-store mt-2 mr-2 primary"></i>¿Cómo Comprar?</a></li>
+                    <li><a href="#"><i class="fas fa-money-bill-wave mt-2 mr-2 primary"></i>Formas de Pago</a></li>
+                    <li><a href="#"><i class="fa fa-question mt-2 mr-2 primary" aria-hidden="true"></i>Preguntas Frecuentes</a></li>
+                    <li><a href="#"><i class="fa fa-comments mt-2 mr-2 primary" aria-hidden="true"></i>Servicio al Cliente</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 mt">
+                <h5 class="primary">POLÍTICAS</h5>
+                <ul>
+                    <li><a href="#"><i class="fa fa-check mt-2 mr-2 primary" aria-hidden="true"></i>Terminos y Condiciones</a></li>
+                    <li><a href="#"><i class="fa fa-lock mt-2 mr-2 primary" aria-hidden="true"></i>Uso de Datos Personales</a></li>
+                    <li><a href="#"><i class="fas fa-check-double mt-2 mr-2 primary"></i>Condiciones de Ofertas</a></li>
+                    <li><a href="#"><i class="fa fa-book-open mt-2 mr-2 primary" aria-hidden="true"></i>Libro de Reclamaciones</a></li>
+                    
+                                            
+                </ul> 
+            </div>
+            <div class="col-md-2 col-sm-6 mt">
+                <h5 class="primary">Call Center</h5>
+                <ul>
+                    <li class="display-5"><i class="fas fa-headset display primary"></i> 555 - 5555</li>
+                </ul>
+                <h5 class="primary">Whatsapp</h5>
+                <ul>
+                    <li class="display-5"><a href="http://wa.me/987654321"><i class="fab fa-whatsapp primary" aria-hidden="true"></i> 987 - 654321</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="row justify-content-center">
+            <div class="row">
+                <span class="col-xs-5 mr-4"><img src="./img/static/tarjeta-mastercard .png" height="50px" alt="mastercard"></span></span>
+                <span class="col-xs-5 mr-4"><img src="./img/static/american-express.png" height="50px" alt="american-express"></span>
+                <span class="col-xs-5 mr-4"><img src="./img/static/club-de-cenas.png" height="50px" alt="dinners-club"></span>
+                <span class="col-xs-5 mr-4"><img src="./img/static/visa.png" height="50px" alt="visa"></span>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-6">
+                <p>Siguenos:</p>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/gorjeo.png" height="40px" alt="mastercard"></a>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/facebook.png" height="40px" alt="american-express"></a>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/youtube.png" height="40px" alt="dinners-club"></a>
+                <a href="#" class="col-xs-5 mr-4"><img src="./img/static/instagram.png" height="40px" alt="visa"></a>
+            </div>
+            <div class=" desarrollo col-6 text-right">
+                <p class="mr-4 desarrollo">Impulsate:</p>
+                <a href="https://codigo.edu.pe" target="blank" class="col-xs-5"><img class="codigo mr-4" src="./img/static/logoCodigo.png" alt="mastercard"></a>
+                <a href="https://www.tecsup.edu.pe/" target="blank" class="col-xs-5"><img class="tecsup mr-2" src="./img/static/logo-tecsup.png" alt="mastercard"></a>
+            </div>
+        </div> 
+        <hr class="bg-light">
+        <div class="row justify-content-center">
+            
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <p><img src="./img/static/copyright.png" class="mr-2" height="30px" alt="copyright">2020 - YomarCs. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</footer>
+
+<!-- JS bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- JS flickity -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<!-- mlens -->
+<script src="./js/jquery.mlens-1.7.min.js"></script>
+<!-- My own JavaScript -->
+<script src="./js/producto.js"></script>
+
+
+</body>
+</div>
+</html>
+                        
+
+

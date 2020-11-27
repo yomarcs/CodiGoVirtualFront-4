@@ -7,13 +7,10 @@ const App = () => {
     <>
       <Header />
       <main className="container mt-4">
-      <Mascotas />
+        <Mascotas />
       </main>
-
     </>
   )
 }
 
 export default App
-     
-

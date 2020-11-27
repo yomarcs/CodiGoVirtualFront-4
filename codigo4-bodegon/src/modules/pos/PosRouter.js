@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Home from './screens/home/Home'
-import Producto from './screens/producto/Producto'
+import Productos from './screens/productos/Productos'
 
 
 const PosRouter = () => {
@@ -11,7 +11,7 @@ const PosRouter = () => {
       <>  
         <Header/>
           <Switch>
-            <Route path={"/producto"} component={Producto} />
+            <Route path={"/productos"} component={Productos} />
             <Route path={"/"} exact component={Home}/> 
           </Switch>
         <Footer />

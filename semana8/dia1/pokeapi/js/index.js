@@ -1,23 +1,18 @@
-//<----- Desarrollo Web FullStack ----->
-//<--------- CodiGo - Tecsup ---------->
-//<------ FrontEnd - JavaScript ------->
-//<------------------------------------>
-//<------------- Video 38 ------------->
-//<-------------- PokeApi ------------->
-//<--======================================-->
 import { URL_BACKEND } from "./variables.js";
 
 const tipos = document.getElementById("tipos");
 const filas = document.getElementById("filas");
 
 const dibujarPokemones = (pokemones) => {
-    pokemones.forEach((objPokemon) => {
-        let row = document.createElement("div");
-        row.classList.add("row");
-        row.innerHTML = `<div class="col-md-6 p-5">
+  filas.innerHTML = "";
+
+  pokemones.forEach((objPokemon) => {
+    let row = document.createElement("div");
+    row.classList.add("row");
+    row.innerHTML = `<div class="col-md-6 p-5">
     <div class="card border-0 shadow">
-      <div class="altura shadow">${objPokemon.talla} m</div>
-      <div class="peso shadow">${objPokemon.peso} kg</div>
+      <div class="altura shadow">${objPokemon.talla}m</div>
+      <div class="peso shadow">${objPokemon.peso}kg</div>
       <div class="card-body text-center">
         <figure>
           <img src="${objPokemon.foto}" alt=""/>
@@ -81,44 +76,46 @@ const dibujarPokemones = (pokemones) => {
       </div>
     </div>
   </div>`;
-        filas.appendChild(row);
-    });
+    filas.appendChild(row);
+  });
 };
 
-const getPokemones = async(urlType) => {
-    const peticion = await fetch(urlType);
-    const data = await peticion.json();
-    let pokemones = [...data.pokemon];
-    let pokemonesArray = [];
-    for (let i = 0; i < pokemones.length; i++) {
-        const peticion2 = await fetch(pokemones[i].pokemon.url);
-        const dataPokemon = await peticion2.json();
-        pokemonesArray.push({
-            nombre: dataPokemon.name,
-            foto: dataPokemon.sprites.other["official-artwork"].front_default,
-            peso: (dataPokemon.weight / 10).toFixed(1),
-            talla: (dataPokemon.height / 10).toFixed(1),
-        });
-    }
-    dibujarPokemones(pokemonesArray);
+const getPokemones = async (urlType) => {
+  const peticion = await fetch(urlType);
+  const data = await peticion.json();
+  let pokemones = [...data.pokemon];
+  let pokemonesArray = [];
+  for (let i = 0; i < pokemones.length; i++) {
+    const peticion2 = await fetch(pokemones[i].pokemon.url);
+    const dataPokemon = await peticion2.json();
+    pokemonesArray.push({
+      nombre: dataPokemon.name,
+      foto: dataPokemon.sprites.other["official-artwork"].front_default,
+      peso: (dataPokemon.weight / 10).toFixed(1),
+      talla: (dataPokemon.height / 10).toFixed(1),
+      // foto:
+      //   dataPokemon["sprites"]["other"]["official-artwork"]["fonrt_default"],
+    });
+  }
+  dibujarPokemones(pokemonesArray);
 };
 
 const dibujarTipos = ({ results }) => {
-    results.forEach((objTipo) => {
-        let div = document.createElement("div");
-        div.classList.add("tipos__tipo", "text-center", "mb-2", "px-3", "py-3");
-        div.innerText = objTipo.name;
-        div.onclick = () => {
-            getPokemones(objTipo.url);
-        };
-        tipos.appendChild(div);
-    });
+  results.forEach((objTipo) => {
+    let div = document.createElement("div");
+    div.classList.add("tipos__tipo", "text-center", "mb-2", "px-3", "py-3");
+    div.innerText = objTipo.name;
+    div.onclick = () => {
+      getPokemones(objTipo.url);
+    };
+    tipos.appendChild(div);
+  });
 };
 
-const getTypes = async() => {
-    const peticion = await fetch(`${URL_BACKEND}/type`);
-    const data = await peticion.json();
-    dibujarTipos(data);
-    console.log(data);
+const getTypes = async () => {
+  const peticion = await fetch(`${URL_BACKEND}/type`);
+  const data = await peticion.json();
+  dibujarTipos(data);
 };
+
 getTypes();

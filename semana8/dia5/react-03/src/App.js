@@ -1,9 +1,9 @@
+import React, { useEffect, useState } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useEffect, useState } from 'react';
 import "./App.css";
 import Header from './pokeapi/Header';
-import Pokemones from './pokeapi/Pokemones';
 import Tipos from "./pokeapi/Tipos";
+import Pokemones from './pokeapi/Pokemones';
 // Para probar el uso del hook useEffect, quitar el comentario
 // de la siguiente línea y llamar al componente HookEffect
 // import HookEffect from './components/HookEffect';

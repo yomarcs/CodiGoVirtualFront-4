@@ -54,6 +54,15 @@
   transform: scaleX(0.7);
 }
 
+@media only screen and (max-width: 1426px) {
+  
+  .navigator__ul__li__a{
+    /* font-size: 1.1rem; */
+    padding: 5px 20px;
+    /* margin-top: 12px; */
+}
+}
+
 @media only screen and (max-width: 1260px) {
   
   .navigator__ul__li__a{
