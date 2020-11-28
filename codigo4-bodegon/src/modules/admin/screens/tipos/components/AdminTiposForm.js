@@ -1,15 +1,33 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import Swal from 'sweetalert2';
+import Alert from '../../../components/Alert';
 
 
 const AdminTiposForm = () => {
 
     const[formulario, setFormulario] = useState({ tipos :""})
+    const[error, setError] = useState(false);
 
     const submit = (e) => {
         e.preventDefault();
-        console.log("Enviando Formulario...");
-        console.log(formulario);
+        
+        if(formulario.tipos.trim() === ""){
+            setError(true);
+            return;
+          }
+      
+          Swal.fire({
+            title: "Creado!",
+            text: "Categoria creada exitosamente",
+            icon: "success",
+            timer: 2000
+        });
+      
+          setFormulario({
+              tipos:""
+          });
+      
+          setError(false);
     }
 
     const handleChange = (e) => {
@@ -23,7 +41,8 @@ const AdminTiposForm = () => {
     return (
         <section className="row">
             <div className="col-12">
-                <div className="card shadow">
+              {error ? <Alert tipo={"danger"} texto={"** El campo tipo debe ser llenado correctamente"}/> : null }
+                <div className={error ? "card shadow border-danger border-4" : "card shadow"}>
                     <div className="card-body">
                         <form className="row" onSubmit={submit}>
                             <div className="form-group col-12">

@@ -1,12 +1,33 @@
 import React, { useState } from 'react';
+import Swal from 'sweetalert2';
+import Alert from '../../../components/Alert';
 
 const AdminMarcasForm = () => {
 
     const [formulario, setFormulario] = useState ({marcas: ""});
+    const [error, setError] = useState(false);
 
     const submit = (e) =>{
         e.preventDefault();
-        console.log("Enviando Formulario...");
+        
+        if(formulario.marcas.trim() === ""){
+            setError(true);
+            return;
+          }
+      
+          Swal.fire({
+            title: "Creado!",
+            text: "Marca creada exitosamente",
+            icon: "success",
+            timer: 2000
+        });
+      
+          setFormulario({
+              marcas:""
+          });
+      
+          setError(false);
+
     }
 
     const handleChange = (e) => {
@@ -16,11 +37,12 @@ const AdminMarcasForm = () => {
         });
     }
 
-    return (
+    return ( 
         <section className="row">
             {/* Formulario */}
             <div className="col-12">
-                <div className="card shadow">
+              {error ? <Alert tipo={"danger"} texto={"** El campo marca debe ser llenado correctamente"}/> : null }
+                <div className={error ? "card shadow border-danger border-4" : "card shadow"}>
                     <div className="card-body">
                         <form className="row" onSubmit={submit}>
                             <div className="form-group col-12">
