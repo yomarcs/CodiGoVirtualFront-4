@@ -10,7 +10,7 @@ const Headband = () => {
                 <a className="link__headband" href="!#"><i className="fas fa-book-open azul mr-2"></i>Catálogo</a> 
             </div>
             <div className="callcenter">
-                <a className="link__headband" href="!#">¿Dudas? <i className="fa fa-phone-alt primary mr-2 ml-2" aria-hidden="true"></i>55-5555</a> 
+                <a className="link__headband" href="!#">¿Dudas? <i className="fa fa-phone-alt primary mr-2 ml-2" aria-hidden="true"></i>555-5555</a> 
             </div>
         </div>
     )

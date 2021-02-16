@@ -5,6 +5,8 @@ import './css/style.css'
 import NotFound from './modules/404/NotFound'
 import AdminRouter from './modules/admin/AdminRouter'
 import PosRouter from './modules/pos/PosRouter'
+// import Cargando from './modules/cargando/Cargando'
+// import Productos from './modules/pos/screens/productos/Productos'
 
 const AppRouter = () => {
     return (

@@ -30,37 +30,37 @@ const Banner = () => {
                         </ol>
                         <div className="carousel-inner" role="listbox">
                             <div className="carousel-item">
-                                <a href="!#"><img src={paneton} className="img-fluid" width="1800px" alt="Third slide"/></a>
-                            </div>
-                            <div className="carousel-item active">
-                                <a href="!#"><img src={bicicleta} className="img-fluid" width="1800px" alt="First slide"/></a>
-                            </div>
-                            <div className="carousel-item">
-                                <a href="!#"><img src={decoracion} className="img-fluid" width="1800px" alt="Second slide"/></a>
-                            </div>
-                            <div className="carousel-item">
                                 <a href="!#"><img src={decoracion2} className="img-fluid" width="1800px" alt="Third slide"/></a>
                             </div>
-                            <div className="carousel-item">
-                                <a href="!#"><img src={electro} className="img-fluid" width="1800px" alt="Third slide"/></a>
+                            <div className="carousel-item active">
+                                <a href="!#"><img src={paneton} className="img-fluid" width="1800px" alt="First slide"/></a>
                             </div>
                             <div className="carousel-item">
-                                <a href="!#"><img src={cerveza} className="img-fluid" width="1800px" alt="Third slide"/></a>
-                            </div>
-                            <div className="carousel-item">
-                                <a href="!#"><img src={pilsen} className="img-fluid" width="1800px" alt="Third slide"/></a>
-                            </div>
-                            <div className="carousel-item">
-                                <a href="!#"><img src={gin} className="img-fluid" width="1800px" alt="Third slide"/></a>
+                                <a href="!#"><img src={pilsen} className="img-fluid" width="1800px" alt="Second slide"/></a>
                             </div>
                             <div className="carousel-item">
                                 <a href="!#"><img src={pisco} className="img-fluid" width="1800px" alt="Third slide"/></a>
+                            </div>
+                            <div className="carousel-item">
+                                <a href="!#"><img src={cerveza} className="img-fluid" width="1800px" alt="Third slide"/></a>
                             </div>
                             <div className="carousel-item">
                                 <a href="!#"><img src={piqueo} className="img-fluid" width="1800px" alt="Third slide"/></a>
                             </div>
                             <div className="carousel-item">
                                 <a href="!#"><img src={bife} className="img-fluid" width="1800px" alt="Third slide"/></a>
+                            </div>
+                            <div className="carousel-item">
+                                <a href="!#"><img src={gin} className="img-fluid" width="1800px" alt="Third slide"/></a>
+                            </div>
+                            <div className="carousel-item">
+                                <a href="!#"><img src={electro} className="img-fluid" width="1800px" alt="Third slide"/></a>
+                            </div>
+                            <div className="carousel-item">
+                                <a href="!#"><img src={bicicleta} className="img-fluid" width="1800px" alt="Third slide"/></a>
+                            </div>
+                            <div className="carousel-item">
+                                <a href="!#"><img src={decoracion2} className="img-fluid" width="1800px" alt="Third slide"/></a>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
