@@ -15,7 +15,7 @@ fetch(url, {
 }).then((response) => { response.json().then((data) => { console.log(data); }) });
 
 // Ejemplo con el verbo POST
-
+// Creando un usuario
 const urlPost = "https://reqres.in/api/users";
 fetch(urlPost, {
     method: "POST",

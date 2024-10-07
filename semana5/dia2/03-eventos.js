@@ -20,6 +20,7 @@
 
 // >> ¿Cómo se configura un evento? -> forma 1 -> elemento.on[evento] = ()=>{}
 //                                  -> forma 2 -> elemento.addEventListener("[evento]",()=>{})
+
 let contador = 0;
 const textoContador = document.getElementById("textoContador");
 

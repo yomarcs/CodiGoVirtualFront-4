@@ -20,7 +20,7 @@
     /* la escala puede crecer y decrecer */
     /* donde 1 es normal y 0.9 decrecimiento */
     transform: scale(1.05, 1.05);
-    box-shadow: #888 0px 0px 5px;
+    box-shadow: #888 0px 0px 10px;
 }
 
 .card2:hover {

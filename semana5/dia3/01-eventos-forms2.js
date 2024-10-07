@@ -4,9 +4,9 @@
 // <!---------- Video 25 - Eventos ---------------->
 //===========================================================================================
 // >> onkeyup -> Evento que se dispara cuando una tecla es soltada luego de presionarla
-// >> onkeydown -> Evento que se dispara cuando una tecla presionada.
+// >> onkeydown -> Evento que se dispara cuando una tecla es presionada.
 // >> onkeypress -> la union de ambos eventos.
-// >> onchange -> Función que se ejecuta cada vez que un elemento cambiar de valor
+// >> onchange -> Función que se ejecuta cada vez que un elemento cambia de valor
 //===========================================================================================
 
 const mensaje = document.getElementById("mensaje");

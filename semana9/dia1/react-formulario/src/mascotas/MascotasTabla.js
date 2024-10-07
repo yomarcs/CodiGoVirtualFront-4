@@ -36,6 +36,7 @@ const MascotasTabla = ({ mascotas, setMascotas, traerMascotas, setMascotaEditar 
 
 
   }
+  
   const handleChangeToggle = (estado, objMascota) => {
     putMascota({
       ...objMascota,

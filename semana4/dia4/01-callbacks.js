@@ -4,19 +4,16 @@
 // <!---------------------------------->
 // <!------------- Video 20 ----------->
 // <!------------ callbacks ----------->
-//====================================//
+//======================================================================//
 // >> callbacks
-// Es una función anónima que se le pasa
-// como parametro a otra función.
+//    Es una función anónima que se le pasa como parametro a otra función.
 // >> Funciones de flecha
-// Es otra forma de definir funciones de
-// callback de una manera mas limpia,
-// clara y corta.
+//    Es otra forma de definir funciones de callback de una manera mas
+//    limpia, clara y corta.
 // >> Funciones anónimas
-// Son funciones que no tienen nombre y
-// que simplemente son guardadas en una
-// variable. Se utilizan en callbacks.
-//======================================
+//    Son funciones que no tienen nombre y que simplemente son guardadas
+//    en una variable. Se utilizan en callbacks.
+//======================================================================//
 
 const nombres = ["jorge", "luis", "ximena"];
 const dnis = ["20202020", "12345678", "01020304"];
@@ -31,7 +28,7 @@ const buscarPorDNI = (dni, funcion) => {
 
 buscarPorDNI("12345678", (encontrado) => {
     console.log("llegó el resultado!");
-    console.log(encontrado);
+    console.table(encontrado);
 });
 
 
@@ -43,10 +40,10 @@ function sumame(numero1, numero2, sumaYmuestra, sumaPorDos) {
     sumaPorDos(sumar);
 };
 
-/*         //-----------------------Funciones anónimas enviadas como parametros a una función---------------------//
+           //-----------------------Funciones anónimas enviadas como parametros a una función---------------------//
            //----------Primera función anónima------------//---------Segunda función anominma---------------------//
 sumame(5,7,function(dato){console.log("La suma es: ",dato)},function(dato){console.log("La suma x2 es: ", dato*2);});
-*/
+
 
 //=================================================================================================================//
 

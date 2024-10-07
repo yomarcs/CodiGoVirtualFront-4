@@ -67,3 +67,5 @@ $("#formulario").submit((e) => {
   // obtener el value de un input
   console.log($("#inputEmail").val());
 });
+
+

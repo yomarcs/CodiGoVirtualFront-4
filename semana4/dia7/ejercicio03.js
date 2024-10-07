@@ -10,7 +10,7 @@
 //       dentro del campo "age" como mayor
 //       de edad y sino menor de edad
 
-message("Ejercicio 3 :", "red");
+message("Ejercicio 3 :", "blue");
 
 function getAdultsUser() {
     let usuarios = users.map((user) => {

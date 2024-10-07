@@ -30,6 +30,6 @@ const filtroMayores = (edades) => {
 
 let arreglo = [12, 19, 17, 58, 42, 10];
 let losMayores = filtroMayores(arreglo);
-console.log(losMayores);
+console.table(losMayores);
 
-// console.log([12, 19, 17, 58, 42, 10, 80].filter((x) => x >= 18));
+// console.log([12, 19, 17, 58, 42, 10, 80].filter(x => x >= 18));

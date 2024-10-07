@@ -16,10 +16,31 @@ function tablaDel5() {
         console.log(`${c} x 5  = ${c * 5}`);
     }
 }
-tablaDel5();
 
+// tablaDel5();
+// console.log("--------");
+// tablaDel5();
 
-console.log("--------");
-tablaDel5();
-console.log("--------");
-tablaDel5();
+function tablaDeMultiplicar(numero) {
+    console.log(`============`);
+    console.log(`Tabla del ${numero}`);    
+    console.log(`============`);
+    for (let c = 0; c <= 10; c++) {      
+        console.log(`${c} x ${numero} = ${c * numero}`);
+    }
+}
+// tablaDeMultiplicar(8);
+
+const arreglo = [1,2,3,4,5,6,7,8,9];
+
+function tablaMultiplicarArray(array){
+    console.log(`Tabla de multiplicar de los elementos de un array`);
+    console.log(`==================================================`);
+    // console.log(`array >> [${array}]`);
+    console.table(array);
+    for (let c = 0; c < array.length; c++) {
+        tablaDeMultiplicar(array[c]);
+    }
+}
+
+tablaMultiplicarArray(arreglo);

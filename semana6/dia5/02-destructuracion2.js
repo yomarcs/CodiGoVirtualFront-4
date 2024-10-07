@@ -14,9 +14,10 @@ let mascota = {
 
 // obligatorio colocar el mismo nombre de la 
 // propiedad a la variable que destructura
-let { edad, nombre } = mascota;
+// let { edad, nombre } = mascota;
+let {raza,edad} = mascota;
 
-console.log(nombre);
+console.log(raza);
 console.log(edad);
 
 // destructurar un atributo modificando 

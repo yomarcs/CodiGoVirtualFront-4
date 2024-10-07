@@ -9,7 +9,7 @@
     width: 500px;
     height: 600px;
     /* Distribuye para ambos lados */
-    margin: 20px auto;
+    margin: 50px auto;
     /* redondear esquinas */
     border-radius: 20px;
     padding: 20px;
@@ -20,10 +20,10 @@
     padding: 10px;
     color: white;
     background-color: violet;
-    border-radius: 2px;
+    border-radius: 5px;
     margin-top: 10px;
     /* Colocando borde solo aabajo */
-    border-bottom: 10px solid #25023a;
+    border-bottom: 1px solid #25023a;
 }
 
 .formulario__input {

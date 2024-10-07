@@ -1,7 +1,7 @@
 :root {
     /*creando variables para usarlas
   en tooooodo el documento*/
-    --primary: #e94a3e;
+    --primary: #333;
     --light: #eee;
     --gray: #666;
     --gray-light: #999;
@@ -21,7 +21,7 @@ body {
 
 .header {
     height: 60px;
-    background: -webkit-linear-gradient( left, var(--primary), var(--primary-light), var(--primary));
+    background: -webkit-linear-gradient( left, #000,var(--primary), #000);
     display: flex;
     z-index: 10;
     position: relative;
@@ -102,19 +102,19 @@ body {
 }
 
 .main__item {
-    background-color: #e63629;
+    background-color: var(--primary);
     height: 60px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #eee;
+    color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .main__item:hover {
-    background-color: #e0554b;
+    background-color: #000;
 }
 
 .main__item i {

@@ -21,8 +21,7 @@ const MesaState = (props) => {
     if (globalObjMesa === null) return;
     // obtener el pedido actual que pertence a la mesa global seleccionada
     // en el arreglo global pedidos
-    const pedidoActual =
-      globalPedidos.find(objPedido => objPedido.mesa_id === globalObjMesa.mesa_id);
+    const pedidoActual = globalPedidos.find(objPedido => objPedido.mesa_id === globalObjMesa.mesa_id);
     // preguntamos si el pedidoActual existe, es decir, que la mesa gobal seleccionada
     // tenga un pedido previamente en nuestro arreglo "globalPedidos"
     if (pedidoActual) {
@@ -50,8 +49,6 @@ const MesaState = (props) => {
           type: "ACTUALIZAR_GLOBAL_PEDIDOS",
           data: nuevoGlobalPedidos
         })
-
-
       } else {
         // la mesa tenía pedidos, pero no tenía ninguna unidad del plato que quiero agregar
         // 1. mapeando el arreglo global de pedidos
@@ -72,9 +69,6 @@ const MesaState = (props) => {
           data: nuevoGlobalPedidos
         })
       }
-
-
-
     } else {
       // La mesa global seleccionada, no tenía un pedido, estaba vacía
       // por ende, debemos crear el pedido nuevo en el arreglo global de pedidos
@@ -97,10 +91,8 @@ const MesaState = (props) => {
         data: nuevoGlobalPedidos
       });
     }
-
-
-
   }
+
   const restarPlato = (objPlato) => {
 
     let { globalPedidos, globalObjMesa } = state;
@@ -143,21 +135,6 @@ const MesaState = (props) => {
       })
 
     }
-
-
-
-  }
-  const seleccionarMesaGlobal = (objMesa) => {
-    dispatch({
-      type: "SELECCIONAR_MESA",
-      data: { ...objMesa }
-    });
-  }
-  const seleccionarCategoriaGlobal = (objCategoria) => {
-    dispatch({
-      type: "SELECCIONAR_CATEGORIA",
-      data: { ...objCategoria }
-    })
   }
 
   const globalPagar = () => {
@@ -204,6 +181,22 @@ const MesaState = (props) => {
 
 
   }
+
+  const seleccionarMesaGlobal = (objMesa) => {
+    dispatch({
+      type: "SELECCIONAR_MESA",
+      data: { ...objMesa }
+    });
+  }
+
+  const seleccionarCategoriaGlobal = (objCategoria) => {
+    dispatch({
+      type: "SELECCIONAR_CATEGORIA",
+      data: { ...objCategoria }
+    })
+  }
+
+
 
   return (
     <MesaContext.Provider value={{

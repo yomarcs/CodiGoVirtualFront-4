@@ -13,7 +13,7 @@ code {
     /* Grosor de la fuente */
     /* Valores entre 100 y 900 donde 900 es super negrita */
     /* Valores "normal" y "bold" */
-    font-weight: 500;
+    font-weight: 00;
     font-style: italic;
 }
 
@@ -22,7 +22,7 @@ code {
     /* Orden : style weight size family  */
     font: normal 500 25px Arial;
 }
-
+ 
 .parrafos__p1 {
     text-align: center;
 }

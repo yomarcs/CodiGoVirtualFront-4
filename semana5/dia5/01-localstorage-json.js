@@ -3,7 +3,17 @@
 //<!-- ---------------------------------------- -->
 //<!------- Video 27 - localstorage - JSON ------->
 //===============================================================================
-// >> elemento.removeAttribute("atributo") -> Elimina un atributo de un elemento.
+// >> localStorage -> es una memoria que tiene nuestro navegador a nivel local.
+//                 -> En el podemos guardar algunos datos del usuario que no sean
+//                    relevantes, sensibles o críticos.
+//                 -> En él podemos guradar por ejemplo, preferencias(color, tema,
+//                    ultimo texto copiado,etc).
+//                 -> El localStorage es diferente para cada dominio en el mismo
+//                    equipo.EJM:
+//                    Para www.google.com nuestro navegadpr tiene un local Storage
+//                    Para www.facebook.com nuestro navegadpr tiene un local Storage
+//                    Para www.youtube.com nuestro navegadpr tiene un local Storage
+// >> elemento.removeAttribute("atributo") -> Elimina un atributo de un elemento.  
 // >> JSON -> Es una clase que sirve para trabajar con estrucutras JSON, las convierte
 //            a string y también convierte de un string a un objeto JSON.
 // >> JSON.stringify(Array) -> convirtiendo un arreglo de objetos a un string.
@@ -94,7 +104,7 @@ const redibujarTbody = () => {
 
         tr.appendChild(tdNro);
         tr.appendChild(tdNombre);
-        tr.appendChild(tdApellido);
+        tr.appendChild(tdApellido); 
         tr.appendChild(tdAcciones);
 
         tbodyFalso.appendChild(tr);
@@ -109,6 +119,8 @@ const redibujarTbody = () => {
     // 1. convirtiendo un arreglo de objetos a un string
     const usuariosString = JSON.stringify(usuarios);
     console.log(usuariosString);
+    // 2. Guardar los usuarios stringen el localstorage
+    localStorage.setItem("usuarios",usuariosString);
 
     // colocar el cursor nuevamente en el campo del nombre para que el usaurio
     // esté listo para ingresar un siguiente registro

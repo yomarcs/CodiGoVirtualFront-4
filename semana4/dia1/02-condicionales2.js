@@ -3,7 +3,7 @@
 // <!-- ------------------------------------ -->
 // <!-- Video 17 - Estructuras Condicionales -->
 //=============================================================================
-// >> const -> Es un identificador que define una constante. se inicializacon un valor
+// >> const -> Es un identificador que define una constante. se inicializa con un valor
 //             y nunca mas cambia de valor durante la ejecución del programa.
 //=============================================================================/**
 /* Calcular el indice de masa corporal e indicar si una persona se encuentra con sobrepeso de acuerdo a la siguiente tabla.

@@ -27,7 +27,7 @@ let modulo = a % b;
 console.log(`Division: 60 / 20 = ${division}`);
 console.log(`Modulo: 60 % 20 = ${modulo}`);
 
-// debugger;
+debugger;
 
 let numero = 50;
 let numero2 = 100;

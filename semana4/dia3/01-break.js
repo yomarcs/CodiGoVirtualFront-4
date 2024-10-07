@@ -16,5 +16,5 @@ for (let c = 0; c < edades.length; c++) {
     if (edades[c] === 0) {
         break;
     }
-    console.log(edades[c]);
+    console.table(edades[c]);
 }

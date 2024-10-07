@@ -8,10 +8,6 @@
 //    let -> crea una variable local a nivel de un bloque de codigo.
 // 
 //=============================================================================
-/**
- * >> Ejercicio: Crear un algoritmo para verificar
- *               si un año ingresado por el usuario el bisiesto
- */
 
 const num = -48;
 let rpta = "";

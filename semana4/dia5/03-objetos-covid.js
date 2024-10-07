@@ -28,6 +28,7 @@ const mostrarDataPorPais = (pais) => {
 mostrarDataPorPais("Brazil");
 
 // la misma función de arriba, con find()
+// find devuelve el "valor" del primer elemento encontrado
 const mostrarDataPorPaisV2 = (pais) => {
     const paisEncontrado = covid.find((estadistica) => {
         if (estadistica.country === pais) {
@@ -44,3 +45,35 @@ const mostrarDataPorPaisV2 = (pais) => {
     console.log(encontrado);
 };
 mostrarDataPorPaisV2("Peru");
+
+// Mi solucion con find
+// find devuelve el "valor" del primer elemento encontrado
+const dataByCountry = (id) =>{
+    let DataPais = covid.find(data => data.country == id);
+    
+    const objDataPais = {
+        pais: DataPais.country,
+        totalCasos: DataPais.cases,
+        totalRecuperados: DataPais.recovered,
+        totalFallecidos: DataPais.deaths
+    }
+    console.log(objDataPais);
+    return objDataPais;
+}
+dataByCountry("Peru");
+
+// Mi solucion con filter
+// filter devuelve un array, asi sea de con un solo elemento
+const dataByCountry2 = (id) =>{
+    let DataPais = covid.filter(data => data.country == id);
+    
+    const objDataPais = {
+        pais: DataPais[0].country,
+        totalCasos: DataPais[0].cases,
+        totalRecuperados: DataPais[0].recovered,
+        totalFallecidos: DataPais[0].deaths
+    }
+    console.log(objDataPais);
+    return objDataPais;
+}
+dataByCountry2("Peru");

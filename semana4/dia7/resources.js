@@ -4,15 +4,15 @@
 //<------ FrontEnd - JavaScript ------->
 //<-------------- Repaso -------------->
 //<--================================-->
-
+    
 const users = [{
         userId: 1,
-        name: 'Diego',
-        lastName: 'Puma',
+        name: 'Fabian',
+        lastName: 'Cerdán',
         active: true,
-        email: 'diegopuma@gmail.com',
+        email: 'fabiancr@gmail.com',
         address: {
-            name: 'Los girasoles',
+            name: 'Rio Pasco',
             geo: {
                 lat: "-43.9509",
                 lng: "-34.4618"
@@ -23,26 +23,26 @@ const users = [{
     },
     {
         userId: 2,
-        name: 'Fernando',
-        lastName: 'Jove',
+        name: 'Gabriel',
+        lastName: 'Cerdán',
         active: true,
-        email: 'fernandojove@hotmail.com',
+        email: 'gabrielcdlc@hotmail.com',
         address: {
-            name: 'Los olivos',
+            name: 'Banchero',
             geo: {
                 lat: "-43.1509",
                 lng: "-34.3518"
             }
         },
-        age: 18,
+        age: 6,
         courses: [1, 2]
     },
     {
         userId: 3,
-        name: 'Edson',
-        lastName: 'Coasaca',
+        name: 'kevin',
+        lastName: 'Cerdán',
         active: true,
-        email: 'edsoncoasaca@gmail.com',
+        email: 'kalexcs@gmail.com',
         address: {
             name: 'Los olivos',
             geo: {
@@ -57,7 +57,7 @@ const users = [{
         userId: 4,
         name: 'Yomar',
         lastName: 'Cerdán',
-        active: true,
+        active: false,
         email: 'yomarcs@hotmail.com',
         address: {
             name: 'Canto Rey',

@@ -1,7 +1,7 @@
 :root {
     /*creando variables para usarlas
     en tooooodo el documento*/
-    --primary: #e94a3e;
+    --primary: tomato;
     --light: #eee;
     --gray: #666;
     --gray-light: #999;
@@ -23,7 +23,7 @@ body {
     background-color: white;
     cursor: pointer;
     display: inline-block;
-    margin: 20px;
+    margin: 15px;
 }
 
 .card:hover .card__description {
@@ -117,17 +117,18 @@ body {
 
 .header {
     height: 60px;
-    background: -webkit-linear-gradient(left, var(--primary), #e47f78, var(--primary));
+    background: -webkit-linear-gradient(left, var(--primary), white, var(--primary));
 }
 
 .main__menu,
 .main__container {
-    display: inline-block;
+    display: inline-block;   
     height: calc(100vh - 60px);
 }
 
 .main__menu {
     width: 220px;
+    
     background-color: #e47f78;
 }
 

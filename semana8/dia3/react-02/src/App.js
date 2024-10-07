@@ -7,7 +7,6 @@ const App = () => {
 	const [canasta, setCanasta] = useState([]);
 
 	const agregarCanasta = (id) => {
-
 		let objProducto = productos.find(p => p.id === id);
 		let copiaCanasta = [...canasta];
 		// revisar si el producto ya existía en la canasta de productos
@@ -23,10 +22,7 @@ const App = () => {
 				}
 			})
 		} else {
-			copiaCanasta.push({
-				...objProducto,
-				cantidad: 1
-			});
+			copiaCanasta.push({...objProducto, cantidad: 1 });
 		}
 		setCanasta(copiaCanasta);
 	};

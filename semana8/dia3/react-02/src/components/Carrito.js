@@ -20,10 +20,7 @@ const Carrito = ({ canasta, eliminarProducto }) => {
                 <strong>{prod.nombre}</strong> -
                 <small> S/ {prod.precio}</small> -
                 <strong> {prod.cantidad} unidades</strong>
-                <button className="btn-eliminar"
-                  onClick={() => {
-                    eliminarProducto(prod.id);
-                  }} >
+                <button className="btn-eliminar" onClick={() => { eliminarProducto(prod.id); }} >
                   X
                 </button>
               </li>)

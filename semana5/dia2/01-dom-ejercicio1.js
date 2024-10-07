@@ -15,7 +15,7 @@ const usuarios = [{
         email: "michael.lawson@reqres.in",
         first_name: "Michael",
         last_name: "Lawson",
-        avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
+        avatar: "https://uifaces.s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
     },
     {
         id: 8,
@@ -75,12 +75,8 @@ const llenarUsuarios = () => {
               <td class="borde">${usu.email}</td>
               <td class="borde">${usu.first_name}</td>
               <td class="borde">${usu.last_name}</td>
-              <td class="borde">
-              <img src="${usu.avatar}" alt="foto del usuario"/>
-              </td>
-              <td class="borde">
-              <button>Eliminar</button>
-              </td>
+              <td class="borde"><img src="${usu.avatar}" alt="foto del usuario"/></td>
+              <td class="borde"><button>Eliminar</button></td>
               </tr>`;
         })
         //4. luego de todas iteraciones, hacer un innerHTML con el string creado

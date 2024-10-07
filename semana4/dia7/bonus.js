@@ -5,7 +5,7 @@
 //<-------------- Repaso -------------->
 //<--================================-->
 
-console.log("===Bonus===");
+message("===Bonus===");
 
 function validateDataType(value) {
     if (typeof value === "string") {
@@ -24,7 +24,7 @@ function getDataByIndex(value, index, arr) {
     console.log(dataFilter)
 }
 
-getDataByIndex("diego", "name", users)
+getDataByIndex("Cerdán", "lastName", users)
 
 // let numero = 1;
 // let caracter = "aa";

@@ -52,7 +52,7 @@ const eliminarUsuario = (posicion) => {
     redibujarTbody();
 };
 
-const redibujarTbody = () => {
+const redibujarTbody = () => { 
     // 1. Limpiar el tbody (borrar todo el innerHTML del tbody)
     //    tbody.innerHTML = "";
     //  2. Crear una variable string vacía
@@ -125,6 +125,8 @@ formulario.addEventListener("submit", (evento) => {
         return;
     }
 
+    // Crear una variable(en este caso objUsuario) dentro de un scope que va ejecutarse
+    // varias veces, hace que pueda ser utilizada para diferentes objetos 
     let objUsuario = {
         nombre: inputNombre.value,
         apellido: inputApellido.value,

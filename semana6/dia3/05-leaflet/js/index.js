@@ -1,7 +1,5 @@
 const btnMarkerArequipa = document.getElementById("btnMarkerArequipa");
-const btnMarkerArequipaEliminar = document.getElementById(
-  "btnMarkerArequipaEliminar"
-);
+const btnMarkerArequipaEliminar = document.getElementById("btnMarkerArequipaEliminar");
 const btnPolylineArequipa = document.getElementById("btnPolylineArequipa");
 const btnEnfocarPuno = document.getElementById("btnEnfocarPuno");
 

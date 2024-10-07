@@ -26,7 +26,7 @@ let mascota = {
         },
     ],
     colores: ["negro", "cafe", "blanco"],
-    propietario: {
+    propietario: { 
         nombre: "Jorge Garnica",
         direccion: "Av. Siempreviva ",
     },
@@ -53,3 +53,18 @@ mascota.colores.forEach((elemento, i) => {
 mascota.habilidades.forEach((habilidad, i) => {
     console.log(habilidad.nombre);
 });
+
+// const persona= {
+//     nombre: "Yomar",
+//     apellidos: "Cerdan Sulca",
+//     dni: "42731171",
+//     edad: 37,
+//     movil: 979325543,
+//     direccion: "Jr. Rio Pasco 3289 Canto Rey SJL - Mz M Lt 21 1era etapa",
+//     nivel: "Univesrsitario",
+//     habilidades: [{nombre: "programador",nivel: "junior"},{nombre: "futbol",nivel: "intermedio"}],
+//     vacuna: true,
+//     color: "blanco",
+// }
+ 
+// console.table(persona.habilidades[1].nombre);

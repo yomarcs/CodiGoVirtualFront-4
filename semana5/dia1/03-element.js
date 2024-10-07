@@ -4,9 +4,9 @@
 // <!--------------- Video 23 --------------------->
 //=======================================================================================
 // >> TODOS LOS ELEMENTOS RETORNADOS POR LOS DISTINTOS SELECTORES son del tipo "ELEMENT"
-// >> element.style.[propiedadCSS] -> Colocamos estilos como en CSS a los elementos.
+// >> elemento.style.[propiedadCSS] -> Colocamos estilos como en CSS a los elementos.
 // >> elemento.offsetWidth -> Devuelve el ancho de un elemento.
-// >> elemento.offsetHeight -> Devuelve el ancho de un elemento.
+// >> elemento.offsetHeight -> Devuelve el alto de un elemento.
 // >> elemento.innerHTML -> settea o retorna el contenido HTML de un elemento
 //                       -> es decir, si colocamos etiquetas, éstas serán renderizadas
 // >> elemento.innerText -> settea o retorna el contenido a nivel de texto de un elemento.
@@ -22,7 +22,7 @@ titulo.style.fontSize = "3rem";
 
 const seccion1 = document.getElementById("seccion1");
 // >> elemento.offsetWidth -> Devuelve el ancho de un elemento.
-// >> elemento.offsetHeight -> Devuelve el ancho de un elemento.
+// >> elemento.offsetHeight -> Devuelve el alto de un elemento.
 const anchoSeccion1 = seccion1.offsetWidth;
 const altoSeccion1 = seccion1.offsetHeight;
 console.log(`Ancho de seccion1: ${anchoSeccion1}px`);

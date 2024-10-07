@@ -6,7 +6,7 @@
 // <!----------- Array.filter --------->
 //====================================//
 //===================================================================================
-// filter -> filter es una función propia de los arreglos, recibe un callback con
+// >> filter -> filter es una función propia de los arreglos, recibe un callback con
 //           los mismos parametros que la función forEach, la diferencia es que 
 //           filter retorna un nuevo arreglo con los elementos filtrados
 // >> push -> Introduce elementos a un array.
@@ -20,15 +20,15 @@
 // >> reverse() -> Nos permite revertir el orden de un array.
 //===================================================================================
 
-const numeros = [12, -3, 0, -9, 67, 0, -10, 0, -500, -4, 32, 33];
+// const numeros = [12, -3, 0, -9, 67, 0, -10, 0, -500, -4, 32, 33];
 
-let resultado = numeros.filter((elemento) => {
-    if (elemento < 0) {
-        return elemento;
-    }
-});
+// let filtro = numeros.filter((elemento) => {
+//     if (elemento < 0) {
+//         return elemento;
+//     }
+// });
 
-console.log(resultado);
+// console.table(filtro);
 
 //====================================================================================
 
@@ -37,23 +37,23 @@ var peliculas = ["La verdad duele", "La vida es bella", "Gran Torino"];
 
 var cine = [categorias, peliculas];
 
-//console.log(cine);
-//console.log(cine[0][1]);
-//console.log(cine[1][2]);
+console.table(cine);
+console.table(cine[0][1]);
+console.table(cine[1][2]);
 
 //========================================//
 
 // push -> Introduce elementos a un array.
-//var elemento = prompt("Introduce tu pelicula:");
+// var elemento = prompt("Introduce tu pelicula:","Ingresa aqui tu pelicula puto");
 while (elemento != "fin") {
-    var elemento = prompt("Introduce tu pelicula:");
+    var elemento = prompt("Introduce tu pelicula:","Ingresa aqui tu pelicula puto");
     if (elemento == "fin") {
         break;
     } else
         peliculas.push(elemento);
 }
 
-console.log(peliculas);
+console.table(peliculas);
 
 //=======================================//
 

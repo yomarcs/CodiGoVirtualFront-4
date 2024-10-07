@@ -7,11 +7,7 @@ const Productos = ({ productos, agregarCanasta }) => {
 		<section className="productos">
 			{productos.map((prod) => {
 				return (
-					<Producto
-						producto={prod}
-						key={prod.id}
-						agregarCanasta={agregarCanasta}
-					/>
+					<Producto producto={prod} key={prod.id} agregarCanasta={agregarCanasta}	/>
 				);
 			})}
 		</section>

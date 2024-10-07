@@ -16,7 +16,7 @@
 }
 
 .card:hover {
-    animation: mover 1s ease-in-out 0s infinite normal none;
+    animation: mover 2s ease-in-out 0s infinite normal none;
 }
 
 @keyframes mover {
@@ -26,7 +26,7 @@
     }
     /* 25% { 
         transform: rotate(45deg);
-    }*/
+    } */
     50% {
         background-color: indianred;
         transform: scale(1.05, 1.05);
@@ -73,10 +73,64 @@
 
 .contenedor__frame {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     height: 100%;
     width: 100%;
     left: -100px;
     background-color: rgb(139, 77, 177, 0.3);
     transition: left 1s ease-in-out;
 }
+
+/* prueba */
+.transition{
+    width: 150px;
+    height: 70px;
+    background-color: violet;
+    margin: 5px;
+  }
+  
+  .transition:hover{
+    width: 300px;
+    height: 140px;
+    background-color: #333;
+  }
+  
+  .Ease{
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+  }
+  
+  .Linear{
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+    -o-transition: all 3s linear;
+    transition: all 3s linear;
+  }
+  
+  .Ease-In{
+    -webkit-transition: all 3s ease-in;
+    -moz-transition: all 3s ease-in;
+    -ms-transition: all 3s ease-in;
+    -o-transition: all 3s ease-in;
+    transition: all 3s ease-in;
+  }
+  
+  .Ease-Out{
+    -webkit-transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -ms-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    transition: all 3s ease-out;
+  }
+  
+  .Ease-In-Out{
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+  }

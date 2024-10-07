@@ -7,11 +7,12 @@
 .padre {
     border: 1px solid tomato;
     display: flex;
+    /* Por Defecto */
     /* flex-direction: row; -> se asume automaticamente cuando ponemos flex */
     /* flex-direction: column; */
-    /*->se colocan en columnas -uno denjo de otro*/
-    flex-wrap: wrap;
-    /*respeta anchos y si no hay espacio disponible colapsa y se ponen uno debajo de otro*/
+    /*->se colocan en columnas -uno dentro de otro*/
+    /* flex-wrap: nowrap; >> los hijos no colapsan */
+    flex-wrap: wrap;/* >> respeta anchos y si no hay espacio disponible colapsa y se ponen uno debajo de otro*/
 }
 
 .caja-1,

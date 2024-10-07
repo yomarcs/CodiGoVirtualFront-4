@@ -1,0 +1,191 @@
+
+.toggle-menu ul {
+    display: table;
+    width: 2rem;
+  }
+
+.toggle-menu ul li {
+    width: 100%;
+    height: 5px;
+    background-color: #25262D;
+    margin-bottom: 4px;
+    list-style: none;
+}
+
+.toggle-menu ul li:last-child {
+    margin-bottom: 0px;
+  }
+
+  input[type="checkbox"],
+  .label-toggle { 
+    display: none;
+  }
+
+#covert__logo{
+    display: none;
+}
+
+.covert__a{
+  display: none;
+}
+
+.covert__buscador{
+    display: none;
+}
+
+@media only screen and (max-width: 1100px){
+
+input[type="checkbox"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    background: none;
+}
+
+input[type="checkbox"]:focus {
+    background: none;
+  }
+
+.label-toggle {
+    float: left;
+    padding: 1.5rem 0 0 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+    color: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+  }
+
+.covert__input::-webkit-input-placeholder{
+  color: green;
+}
+
+/* .header__covert{
+    background-color: white;
+    width: 100%;
+    display: table;
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+} */
+
+.logo__oculto{
+  text-align: center;
+  height: 45px;
+  margin-top: 7px;
+}
+
+#covert__logo{
+  display: initial;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.covert__logo{
+  text-align: center;
+}
+
+.covert__img{
+    text-align: center;
+    height: 45px; 
+    margin-top: 7px;
+    /* display: center; */
+    
+}
+
+.covert__a{
+    display: initial;
+    float: right;
+    line-height: 60px;
+    font-size: 1.2rem;
+    color:#25262D;
+    margin-right: 15px;
+}
+
+.covert__a:hover{
+    color:#0c810c;
+}
+
+.covert__buscador{
+    display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.covert__input{
+    display: initial;
+    width: 500px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+    border-top: 1px solid green;
+    border-left: 1px solid green;
+    border-bottom: 1px solid green;
+    border-right: none;
+    outline: none; 
+    margin: 20px 0px 15px 15px;
+    padding-left: 8px;
+}
+
+.covert__input::-webkit-input-placeholder{
+  color: green;
+}
+
+.covert__button{
+  height: 30px;
+  width: 50px;
+  border-right: 1px solid green;
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none;
+}
+
+.covert__button:hover{
+  background: green;
+  color: #A7F2A7;
+  outline: none;
+}
+
+.covert__button:focus{
+  outline: none;
+}
+}
+
+@media only screen and (max-width: 760px){
+  .covert__input{
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 660px){
+  .covert__input{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 560px){
+  .covert__input{
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .label-toggle {
+    padding: 1.5rem 0 0 0.5rem;
+}
+.covert__a{
+  margin-right: 0px;
+}
+.covert__input{
+  margin: 15px 0px 15px 0px;
+}
+.covert__button{
+margin: 15px 0px 15px 0px;
+}
+}

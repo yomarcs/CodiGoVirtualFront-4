@@ -20,7 +20,7 @@
 let hoy = new Date();
 console.log(hoy);
 
-// >> fecha.getFullYear() -> Retorna el año de un objeto Date
+// >> fecha.getFullYear() -> Retorna el año de un objeto Date 
 let anio = hoy.getFullYear();
 console.log(anio);
 
@@ -47,10 +47,10 @@ console.log(`segundos actual = ${segundos}`);
 console.log(`milisegundos actual = ${milisegundos}`);
 
 // ¿Cómo inicializo un objeto date con una fecha distinta?
-let halloween2020 = new Date(2020, 9, 31);
-console.log(halloween2020);
+let halloween2022 = new Date(2022, 9, 31);
+console.log(halloween2022);
 
-let halloweenMenosHoy = halloween2020 - hoy;
+let halloweenMenosHoy = halloween2022 - hoy;
 console.log(halloweenMenosHoy);
 
 let diasParaHalloween = halloweenMenosHoy / 1000 / 60 / 60 / 24;
@@ -59,6 +59,8 @@ let diasParaHalloween = halloweenMenosHoy / 1000 / 60 / 60 / 24;
 //                                          cantidad_de_decimales pasada como parametro.
 console.log(`Dias para Halloween: ${diasParaHalloween.toFixed(2)}`);
 
+// Fecha en UNIX >> Es una fecha que nos muestra cuantos segundos han transcurrido desde 
+// el 1 de enero de 1970, siendo un standard universal
 // Inicializar una fecha en formato UNIX
 // new Date(millisegundos) (millisegundos desde UNIX (1 enero 1970))
 let fechaPronostico = new Date(1601154000 * 1000);

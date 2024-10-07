@@ -35,3 +35,4 @@ for (let c = 0; c < arreglo.length; c++) {
     console.log(`Tabla del ${arreglo[c]}`);
     tablaDeMultiplicar(arreglo[c]);
 }
+

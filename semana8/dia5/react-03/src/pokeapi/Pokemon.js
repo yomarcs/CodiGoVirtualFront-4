@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Cargando from './Cargando';
 
 const Pokemon = ({ pokemon: { name, url } }) => {
@@ -10,7 +10,7 @@ const Pokemon = ({ pokemon: { name, url } }) => {
   const [defensa, setDefensa] = useState(0);
 
 
-  const traerPokemon = async () => {
+  const traerPokemon = async (url) => {
     const peticion = await fetch(url);
     const data = await peticion.json();
     setPokemonData(data);
@@ -25,7 +25,7 @@ const Pokemon = ({ pokemon: { name, url } }) => {
   }
 
   useEffect(() => {
-    traerPokemon();
+    traerPokemon(url);
   }, [url])
 
   return (

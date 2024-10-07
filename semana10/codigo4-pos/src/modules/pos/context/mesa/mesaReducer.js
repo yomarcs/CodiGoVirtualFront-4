@@ -16,6 +16,7 @@ const MesaReducer = (stateActual, action) => {
         ...stateActual,
         globalPedidos: [...action.data]
       }
+    default: return
   }
 }
 export default MesaReducer;

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { getPlatos } from '../../../../../services/platosService';
+import React from 'react'
 
 const AdminPlatosTabla = ({ platos }) => {
 

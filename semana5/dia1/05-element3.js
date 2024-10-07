@@ -16,4 +16,4 @@ btnTema.onclick = () => {
     } else {
         estilos.setAttribute("href", "./05-light.css");
     }
-};
+}; 

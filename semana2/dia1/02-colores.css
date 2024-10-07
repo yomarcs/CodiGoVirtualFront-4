@@ -20,7 +20,7 @@ body {
 .color--verde--hex {
     color: #00ff00;
 }
-
+ 
 .color--morado--rgb {
     color: rgb(255, 0, 255);
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .color--rojo--1 {
-    background-color: hsl(0, 100%, 50%);
+    background-color: rgb(255, 0, 0);
 }
 
 .color--rojo--2 {

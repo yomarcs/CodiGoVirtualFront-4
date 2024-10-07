@@ -17,7 +17,7 @@ let edad = 35;
 let numero = 07;
 let fechaNacimiento = "12-10-84";
 
-edad = 35;
+edad = 37;
 
 console.log(nombre);
 console.log("nombre");

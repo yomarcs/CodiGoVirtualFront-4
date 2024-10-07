@@ -1,0 +1,41 @@
+.headband{
+    background: #25262D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link__headband{
+    padding: 0px 30px;
+}
+
+.orange{
+    color: rgb(245, 66, 76);
+}
+
+.amarillo{
+    color: rgb(245, 193, 17);
+}
+
+.verde{
+    color: rgb(29, 245, 84);
+}
+
+.azul{
+    color: rgb(42, 65, 245);
+}
+
+.morado{
+    color: rgb(173, 17, 245);
+}
+
+@media only screen and (max-width: 900px) {
+
+.callcenter{
+    display: none;
+}
+
+.link__headband{
+    padding: 0px 20px;
+}
+
+}

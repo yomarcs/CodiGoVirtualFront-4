@@ -14,19 +14,20 @@ const peliculasResumen = () => {
         const objetoTemporal = {
             titulo: pelicula.title,
             estreno: pelicula.release_date,
-            sinopsis: pelicula.overview,
+            sinopsis: pelicula.overview
         };
         return objetoTemporal;
     });
+    return resumenes;
     console.log(resumenes);
 };
-
 peliculasResumen();
 
 //====================================================================
 // >> Ejercicio.
 //    Función para filtrar y mostrar en un nuevo arreglo todas las
 //    peliculas en idioma español (castellano).
+// >> idionas : "es" - "en" - "ko" - "zh" -"hi" - "fr" - "ja"
 
 peliculasLatinas = (lang) => {
     const peliFiltrada = peliculas.filter((peli) => {
@@ -35,14 +36,21 @@ peliculasLatinas = (lang) => {
     });
     console.log(peliFiltrada);
 };
-
-// idionas : "es" - "en" - "ko" - "zh"
 peliculasLatinas("es");
 
-//====================================================================
-// >> Ejercicio. 
-//    Función que retorne un género dado el id del genero
+// Mi solución
+// const searchMoviesByLang = (lang) => {
+//     const MoviesByLang = peliculas.filter(peli => peli.original_language == lang);
+//     console.log(MoviesByLang);
+//     return MoviesByLang;
+// }
+// searchMoviesByLang("fr");
 
+// ===================================================================
+// ===================================================================
+// >> Ejercicio. 
+//    Función que retorne el nombre del género dado el id del genero
+// >> generos: acción(28), aventura(12), terror(27), animación(16)
 const searchGenreById = (id) => {
     // arreglo.find(()=>{})
     // la función find, retorna el primer elemento que coincida con la condicion o el patrón de
@@ -61,10 +69,40 @@ const searchGenreById = (id) => {
         return null;
     }
 };
-// generos: acción(28), aventura(12), terror(27), animación(16)
 console.log(searchGenreById(12));
 
-//====================================================================
+// Mi Solucion
+// const searchNameByIdGenre = (id) => {
+//     let genreFound = generos.find((genre) => {
+//         if(genre.id == id)
+//             return genre;
+//     }); 
+//     // console.log(genreFound.name);
+//     if(genreFound) 
+//     return genreFound.name;
+//     return null
+// }
+// console.log(searchNameByIdGenre(16));
+
+// ==================================================================
+// ==================================================================
+// >> Ejercicicio: Metodo para buscar todas las peliculas segun un genero
+// >> generos: acción(28), aventura(12), terror(27), animación(16)
+
+const searchMoviesByIdGenre = (id) => {
+    const MoviesFilterByGenre = [];
+    peliculas.forEach((pelicula) => {
+        let result = pelicula.genre_ids.some((peli) => peli == id); 
+        if(result)
+            MoviesFilterByGenre.push(pelicula);
+    })
+    console.log(MoviesFilterByGenre);
+    return MoviesFilterByGenre
+}
+searchMoviesByIdGenre(10402);
+
+// ====================================================================
+// ===================================================================
 // >> Ejercicio.
 //    Función que imprime un nuevo arreglo de peliculas, donde cada pelicula tendrá
 //    {
@@ -93,5 +131,21 @@ const resumenPeliculasConGeneros = () => {
     });
     console.log(peliculasResumen);
 };
-
 resumenPeliculasConGeneros();
+
+// Mi Solución
+// const resumenMoviesWithNameOfGenre = () => {
+//     const Resumenes = peliculas.map((pelicula) => {
+//         const generosString = pelicula.genre_ids.map( genre => searchNameByIdGenre(genre));
+//         objTemporal = {
+//             titulo: pelicula.title,
+//             sinopsis: pelicula.overview,
+//             estreno: pelicula.release_date,
+//             generos : generosString
+//         }
+//         return objTemporal;
+//     })
+//     console.log(Resumenes);
+//     return Resumenes;
+// }
+// resumenMoviesWithNameOfGenre();

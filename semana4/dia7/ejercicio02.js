@@ -13,12 +13,15 @@ console.table(users);
 
 function getUserByName(name) {
     let upperName = name.toUpperCase();
+    
     let usersByName = users.filter((user) => {
         return user.name.toUpperCase() === upperName;
     });
+
     let userByNameFind = users.find((user) => {
         return user.name.toUpperCase() === upperName;
     })
+
     console.log(userByNameFind);
     console.table(usersByName);
 }
